@@ -7,9 +7,6 @@ public class SimpleMovement : MonoBehaviour
     //Outlet
     Rigidbody2D _rigidbody2D;
 
-    //Config
-    public float aceleration;
-
     //Methods
     void Start()
     {
@@ -22,25 +19,36 @@ public class SimpleMovement : MonoBehaviour
         //Move Player Left
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            _rigidbody2D.AddForce(Vector2.left * aceleration * Time.deltaTime, ForceMode2D.Impulse);
+            _rigidbody2D.AddForce(Vector2.left * 5f * Time.deltaTime, ForceMode2D.Impulse);
         }
 
         //Move Player Right
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            _rigidbody2D.AddForce(Vector2.right * aceleration * Time.deltaTime, ForceMode2D.Impulse);
+            _rigidbody2D.AddForce(Vector2.right * 5f * Time.deltaTime, ForceMode2D.Impulse);
         }
 
         //Move Player Up
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            _rigidbody2D.AddForce(Vector2.up * aceleration * Time.deltaTime, ForceMode2D.Impulse);
+            _rigidbody2D.AddForce(Vector2.up * 5f * Time.deltaTime, ForceMode2D.Impulse);
         }
 
         //Move Player Down
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            _rigidbody2D.AddForce(Vector2.down * aceleration * Time.deltaTime, ForceMode2D.Impulse);
+            _rigidbody2D.AddForce(Vector2.down * 5f * Time.deltaTime, ForceMode2D.Impulse);
+        }
+
+
+        void OnCollisionEnter(Collision collision)
+        {
+            // check if the collided object is the "garbage" layer
+            if (collision.gameObject.layer == LayerMask.NameToLayer("Garbage"))
+            {
+                // if tag = garabe, then get rid of it
+                Destroy(collision.gameObject);
+            }
         }
     }
 }
