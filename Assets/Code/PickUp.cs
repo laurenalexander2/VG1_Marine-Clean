@@ -13,7 +13,11 @@ public class PickUp : MonoBehaviour
             // if layer = garabe, then get rid of it
             Destroy(collision.gameObject);
         }
+        //put the following inside the code for picking up things that give points
+        //calling the following will add 1 point to the score
+        //ScoreSystem.instance.AddPoint();
+
     }
 
-    
+//void Activate(); //this is to activate the scoring system when we pick up something
 }
