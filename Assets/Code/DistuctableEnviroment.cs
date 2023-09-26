@@ -9,8 +9,10 @@ namespace enviroment {
         //Variables
         public float startingHp;
         private float currentHp;
-        private float incomingVelocity;
-        public int damageScalar;
+        private float velocityDifference;
+        public int impactScalar;
+        public float scrapeScalar;
+        public float scrapeSense;
 
         // Start is called before the first frame update
         void Start()
@@ -26,12 +28,21 @@ namespace enviroment {
             }
         }
          void OnCollisionEnter2D(Collision2D other){
-           /* if (other.gameObject.GetComponent<SimpleMovement>())
-            {*/
-                incomingVelocity = other.gameObject.GetComponent<Rigidbody2D>().velocity.magnitude;
-                currentHp = currentHp - incomingVelocity*damageScalar;
+            /* if (other.gameObject.GetComponent<SimpleMovement>())
+             {*/
+            velocityDifference = other.relativeVelocity.magnitude;
+                currentHp = currentHp - velocityDifference*impactScalar;
             Debug.Log(currentHp); 
           // }
+        }
+        void OnCollisionStay2D(Collision2D other)
+        {
+            velocityDifference = other.relativeVelocity.magnitude;
+            if (velocityDifference > scrapeSense)
+            {
+                currentHp = currentHp - velocityDifference * scrapeScalar * Time.deltaTime;
+                Debug.Log(currentHp);
+            }
         }
     }
 }
