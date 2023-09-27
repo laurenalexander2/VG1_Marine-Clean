@@ -7,8 +7,8 @@ namespace movement
     {
         //Outlet
         Rigidbody2D _rigidbody2D;
-       
-
+        public float jetSpeed;
+        public float speed;
 
         //Methods
         void Start()
@@ -20,35 +20,45 @@ namespace movement
         void Update()
         {
             //Move Player Left
-            if (Input.GetKey(KeyCode.LeftArrow))
+            if (Input.GetKey(KeyCode.A))
             {
-                _rigidbody2D.AddForce(Vector2.left * 5f * Time.deltaTime, ForceMode2D.Impulse);
+                _rigidbody2D.AddForce(Vector2.left * speed * Time.deltaTime);
+                //horizontal thrust
+                if (Input.GetKey(KeyCode.Space))
+                {
+                    _rigidbody2D.AddForce(Vector2.left * jetSpeed * Time.deltaTime, ForceMode2D.Impulse);
+                }
+
             }
 
             //Move Player Right
-            if (Input.GetKey(KeyCode.RightArrow))
+            if (Input.GetKey(KeyCode.D))
             {
-                _rigidbody2D.AddForce(Vector2.right * 5f * Time.deltaTime, ForceMode2D.Impulse);
+                _rigidbody2D.AddForce(Vector2.right * speed * Time.deltaTime);
+                //horizontal thrust
+                if (Input.GetKey(KeyCode.Space))
+                {
+                    _rigidbody2D.AddForce(Vector2.right * jetSpeed * Time.deltaTime, ForceMode2D.Impulse);
+                }
             }
 
             //Move Player Up
-            if (Input.GetKey(KeyCode.UpArrow))
+            if (Input.GetKey(KeyCode.W))
             {
-                _rigidbody2D.AddForce(Vector2.up * 5f * Time.deltaTime, ForceMode2D.Impulse);
+                _rigidbody2D.AddForce(Vector2.up * speed * Time.deltaTime);
             }
 
             //Move Player Down
-            if (Input.GetKey(KeyCode.DownArrow))
+            if (Input.GetKey(KeyCode.S))
             {
-
-                _rigidbody2D.AddForce(Vector2.down * 5f * Time.deltaTime, ForceMode2D.Impulse);
+                _rigidbody2D.AddForce(Vector2.down * speed * Time.deltaTime);
             }
 
-
+           
           
 
 
-
+           
 
         }
 
