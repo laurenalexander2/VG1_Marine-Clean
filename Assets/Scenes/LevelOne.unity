@@ -399,6 +399,8 @@ MonoBehaviour:
   impactScalar: 0
   scrapeScalar: 40
   scrapeSense: 0.05
+  target: {fileID: 678959390}
+  pointValue: -2
 --- !u!70 &105042189
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -564,6 +566,8 @@ MonoBehaviour:
   impactScalar: 0
   scrapeScalar: 40
   scrapeSense: 0.05
+  target: {fileID: 678959390}
+  pointValue: -2
 --- !u!70 &289091629
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -708,7 +712,7 @@ GameObject:
   - component: {fileID: 390233031}
   m_Layer: 6
   m_Name: Circle (4)
-  m_TagString: Untagged
+  m_TagString: ManObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -752,6 +756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3df3e1f00e145bb867bb14d3cf4694, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointValue: 1
 --- !u!61 &390233033
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -968,6 +973,8 @@ MonoBehaviour:
   impactScalar: 0
   scrapeScalar: 40
   scrapeSense: 0.05
+  target: {fileID: 678959390}
+  pointValue: -2
 --- !u!70 &549342732
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1479,6 +1486,8 @@ MonoBehaviour:
   impactScalar: 0
   scrapeScalar: 40
   scrapeSense: 0.05
+  target: {fileID: 678959390}
+  pointValue: -2
 --- !u!70 &757390290
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1623,7 +1632,7 @@ GameObject:
   - component: {fileID: 832145718}
   m_Layer: 6
   m_Name: Circle (5)
-  m_TagString: Untagged
+  m_TagString: ManObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1667,6 +1676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3df3e1f00e145bb867bb14d3cf4694, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointValue: 1
 --- !u!61 &832145720
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1794,7 +1804,7 @@ GameObject:
   - component: {fileID: 909970319}
   m_Layer: 6
   m_Name: Circle (3)
-  m_TagString: Untagged
+  m_TagString: ManObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1838,6 +1848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3df3e1f00e145bb867bb14d3cf4694, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointValue: 1
 --- !u!61 &909970321
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1986,6 +1997,8 @@ MonoBehaviour:
   impactScalar: 0
   scrapeScalar: 40
   scrapeSense: 0.05
+  target: {fileID: 678959390}
+  pointValue: -2
 --- !u!70 &1040093167
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2236,7 +2249,7 @@ GameObject:
   - component: {fileID: 1261283753}
   m_Layer: 6
   m_Name: Circle (1)
-  m_TagString: Untagged
+  m_TagString: ManObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2365,6 +2378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3df3e1f00e145bb867bb14d3cf4694, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointValue: 1
 --- !u!50 &1261283753
 Rigidbody2D:
   serializedVersion: 4
@@ -2557,6 +2571,8 @@ MonoBehaviour:
   impactScalar: 0
   scrapeScalar: 40
   scrapeSense: 0.05
+  target: {fileID: 678959390}
+  pointValue: -2
 --- !u!1 &1311769472
 GameObject:
   m_ObjectHideFlags: 0
@@ -2593,6 +2609,8 @@ MonoBehaviour:
   impactScalar: 0
   scrapeScalar: 40
   scrapeSense: 0.05
+  target: {fileID: 678959390}
+  pointValue: -2
 --- !u!70 &1311769474
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2832,7 +2850,7 @@ GameObject:
   - component: {fileID: 1529269695}
   m_Layer: 6
   m_Name: Circle (2)
-  m_TagString: Untagged
+  m_TagString: ManObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2985,13 +3003,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1529269689}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a25eecd10e7d33641aac83069e93ae66, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b3df3e1f00e145bb867bb14d3cf4694, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHp: 100
-  impactScalar: 0
-  scrapeScalar: 0
-  scrapeSense: 0
+  pointValue: 1
 --- !u!1 &1601978306
 GameObject:
   m_ObjectHideFlags: 0
@@ -3091,7 +3106,7 @@ GameObject:
   - component: {fileID: 1650037602}
   m_Layer: 6
   m_Name: Circle
-  m_TagString: Untagged
+  m_TagString: ManObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3220,6 +3235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3df3e1f00e145bb867bb14d3cf4694, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointValue: 1
 --- !u!50 &1650037602
 Rigidbody2D:
   serializedVersion: 4
@@ -3283,6 +3299,8 @@ MonoBehaviour:
   impactScalar: 0
   scrapeScalar: 40
   scrapeSense: 0.05
+  target: {fileID: 678959390}
+  pointValue: -2
 --- !u!70 &1713957754
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3556,6 +3574,8 @@ MonoBehaviour:
   impactScalar: 0
   scrapeScalar: 40
   scrapeSense: 0.05
+  target: {fileID: 678959390}
+  pointValue: -2
 --- !u!70 &1868710423
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

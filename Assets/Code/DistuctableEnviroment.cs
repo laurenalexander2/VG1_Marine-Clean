@@ -13,7 +13,9 @@ namespace enviroment {
         public int impactScalar;
         public float scrapeScalar;
         public float scrapeSense;
-
+        public GameObject target;
+        
+        public int pointValue;
         // Start is called before the first frame update
         void Start()
         {
@@ -24,7 +26,14 @@ namespace enviroment {
         void Update()
         {
             if (currentHp <= 0) {
+
+                GameObject.Find("Timer").GetComponent<ScoreSystem>().AddPoint(pointValue);
+               // target.GetComponent<ScoreSystem>().points = target.GetComponent<ScoreSystem>().points - pointValue;
+                //ScoreSystem.AddPoint(pointValue);
+                print(target.GetComponent<ScoreSystem>().points);
+
                 Destroy(gameObject);
+               
             }
         }
          void OnCollisionEnter2D(Collision2D other){
@@ -32,7 +41,7 @@ namespace enviroment {
              {*/
             velocityDifference = other.relativeVelocity.magnitude;
                 currentHp = currentHp - velocityDifference*impactScalar;
-            Debug.Log(currentHp); 
+          //  Debug.Log(currentHp); 
           // }
         }
         void OnCollisionStay2D(Collision2D other)
@@ -41,7 +50,7 @@ namespace enviroment {
             if (velocityDifference > scrapeSense)
             {
                 currentHp = currentHp - velocityDifference * scrapeScalar * Time.deltaTime;
-                Debug.Log(currentHp);
+               // Debug.Log(currentHp);
             }
         }
     }
