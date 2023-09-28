@@ -62,20 +62,5 @@ namespace movement
 
         }
 
-
-
-
-
-        void OnCollisionEnter(Collision collision)
-        {
-            // check if the collided object is the "garbage" layer
-            if (collision.gameObject.layer == LayerMask.NameToLayer("Garbage"))
-            {
-                // if tag = garabe, then get rid of it
-                Destroy(collision.gameObject);
-            }
-        }
-
-
     }
 }
