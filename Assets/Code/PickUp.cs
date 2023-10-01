@@ -13,7 +13,7 @@ public class PickUp : MonoBehaviour
         {
             //adding point
             //ScoreSystem.instance.AddPoint(pointValue);
-
+            GameObject.Find("Timer").GetComponent<ScoreSystem>().AddPoint(pointValue);
             Destroy(collider.gameObject);
         }
 

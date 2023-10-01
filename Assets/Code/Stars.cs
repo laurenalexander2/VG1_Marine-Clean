@@ -12,9 +12,11 @@ public class Stars : MonoBehaviour
  public int star = 0;
  public GameObject Timer;
  public TimerCode time;
+    
     // Start is called before the first frame update
     void Start()
     {
+       
     Star1.enabled = false;
     Star2.enabled = false;
     Star3.enabled = false;
@@ -25,13 +27,19 @@ public class Stars : MonoBehaviour
     {
 
     if(time.timerOn == false) {
-                if(counter.points >= 100){
+          float targetScore = Timer.GetComponent<ScoreSystem>().startPoints;
+            //print(targetScore);
+           float aceivedScore = Timer.GetComponent<ScoreSystem>().points;
+           // print(aceivedScore);
+            float scorePercentage = aceivedScore/targetScore;
+           // print(scorePercentage);
+                if (scorePercentage >= .9 ){
                     star = 3;
-                    StarDisplay(star);
-                } else if(counter.points >= 75) {
+                  StarDisplay(star);
+                } else if(scorePercentage >= .75) {
                     star = 2;
                     StarDisplay(star);
-                }else if(counter.points >= 50 ){
+                }else if(scorePercentage >= .50 ){
                     star = 1;
                     StarDisplay(star);
                 }else{
