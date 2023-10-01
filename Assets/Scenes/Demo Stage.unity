@@ -4386,6 +4386,10 @@ PrefabInstance:
       propertyPath: fuelSpendSpeed
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 4455088687161690181, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
+      propertyPath: m_GravityScale
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 8398461461211186627, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
       propertyPath: m_Name
       value: PC

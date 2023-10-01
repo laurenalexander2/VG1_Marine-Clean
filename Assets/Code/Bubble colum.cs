@@ -22,30 +22,32 @@ public class Bubblecolum : MonoBehaviour
     void Start()
     {
        angle = transform.localEulerAngles.z;
-        angle = angle - 90f;
+
+        //acounts for the capsule being perpindicular to the x-axis
+        angle = angle + 90f;
         
-       slope = new Vector2(Mathf.Sin(angle* Mathf.Deg2Rad), Mathf.Cos(angle* Mathf.Deg2Rad));
+       slope = new Vector2(Mathf.Cos(angle* Mathf.Deg2Rad), Mathf.Sin(angle* Mathf.Deg2Rad));
        // Debug.Log(slope);
       
     }
     
     void OnTriggerEnter2D(Collider2D collider)
     {
-                 _rigidBody = collider.GetComponent<Rigidbody2D>();
+         _rigidBody = collider.GetComponent<Rigidbody2D>();
        //Debug.Log("enteredd collum");
         rampTracker = ramp;
     }
     void OnTriggerStay2D(Collider2D collider)
     {
        
-          //  if (rampTracker != 0) { }
-          //  {
-           //     _rigidBody.AddForce((slope * power) / rampTracker * Time.deltaTime);
-           //     Debug.Log(rampTracker);
-           //     --rampTracker;
+          /*  if (rampTracker > 0) { }
+            {
+                _rigidBody.AddForce((slope * power) / rampTracker * Time.deltaTime);
+                Debug.Log(rampTracker);
+               --rampTracker;
 
-           // }
-            // Debug.Log("adding force");
+           }*/
+          // Debug.Log("adding force");
             _rigidBody.AddForce(slope * power * Time.deltaTime);
         
     }
