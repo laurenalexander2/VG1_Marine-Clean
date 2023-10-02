@@ -1159,7 +1159,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 100
   m_WholeNumbers: 1
-  m_Value: 10
+  m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3866,11 +3866,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
-  healthBar: {fileID: 0}
-  impactScalar: 0
-  scrapeScalar: 0
-  scrapeSense: 0
-  target: {fileID: 0}
+  healthBar: {fileID: 8790601065348340988}
+  impactScalar: 15
+  scrapeScalar: 40
+  scrapeSense: 0.5
+  target: {fileID: 678959390}
   pointValue: 0
 --- !u!114 &8790601065348340988
 MonoBehaviour:
