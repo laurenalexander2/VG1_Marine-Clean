@@ -8,6 +8,7 @@ public class ScoreSystem : MonoBehaviour
     public static ScoreSystem instance;
     public int points;
     public int startPoints;
+    public ProgressBar progressBar;
 
     public void Activate() {
         instance = this;
@@ -30,6 +31,10 @@ public class ScoreSystem : MonoBehaviour
        // print(startPoints);
     }
     void Update() {
+        if (progressBar) {
+            float progress = (float)points / startPoints;
+            progressBar.SetProgress(progress);
+        }
     }
     // Update is called once per frame
 }
