@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TimerCode : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class TimerCode : MonoBehaviour
     public float timeRemaining = 10;
     public bool timerOn = false;
     public Text GameText;
+    public GameObject endScreen;
+
     private void Start() {
         timerOn = true;
     }
@@ -24,6 +27,9 @@ public class TimerCode : MonoBehaviour
                     Debug.Log("Game Over");
                     timeRemaining = 0;
                     timerOn = false;
+
+                //end screen
+                endScreen.SetActive(true);
               }
         }
     }
@@ -34,4 +40,7 @@ public class TimerCode : MonoBehaviour
     GameText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 
+    public void RestartGame() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
