@@ -19,6 +19,7 @@ public class SubmarineHealth : MonoBehaviour
             {
                  currentHealth = maxHealth;
                  healthBar.SetMaxHealth(maxHealth);
+         healthBar.SetHealth(currentHealth);
             }
 
             // Update is called once per frame

@@ -15,6 +15,7 @@ public class ScoreSystem : MonoBehaviour
     }
     public void AddPoint(int pv) {
             points = points + pv;
+        
        // Debug.Log(points);
         }
     // Start is called before the first frame update

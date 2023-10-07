@@ -46,9 +46,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7248b39b216044f691636e2fa7ffb9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 10
+  timeRemaining: 60
   timerOn: 0
   GameText: {fileID: 0}
+  endScreen: {fileID: 0}
 --- !u!114 &4144738537064292048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,6 +63,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 0
+  startPoints: 0
+  progressBar: {fileID: 0}
 --- !u!114 &445551470452164032
 MonoBehaviour:
   m_ObjectHideFlags: 0
