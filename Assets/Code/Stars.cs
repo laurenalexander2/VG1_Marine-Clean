@@ -68,4 +68,7 @@ public class Stars : MonoBehaviour
             Star3.enabled = false;
             }
     }
+    public int GetStarCount() {
+        return star;
+    }
 }

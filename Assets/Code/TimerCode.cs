@@ -12,9 +12,19 @@ public class TimerCode : MonoBehaviour
     public bool timerOn = false;
     public Text GameText;
     public GameObject endScreen;
+    public Image endStar1;
+    public Image endStar2;
+    public Image endStar3;
+    public Stars starScript;
+
+    private void Awake() {
+        starScript = GetComponent<Stars>();
+    }
 
     private void Start() {
         timerOn = true;
+
+
     }
     // Update is called once per frame
     void Update()
@@ -30,15 +40,35 @@ public class TimerCode : MonoBehaviour
 
                 //end screen
                 endScreen.SetActive(true);
+
+                //UpdateEndScreenStars();
               }
         }
     }
+
+    /*void UpdateEndScreenStars()
+    {
+        int starsAchieved = starScript.GetStarCount();
+
+        // Initially set all to false
+        endStar1.enabled = false;
+        endStar2.enabled = false;
+        endStar3.enabled = false;
+
+        // Enable stars based on the count
+        if (starsAchieved >= 1) endStar1.enabled = true;
+        if (starsAchieved >= 2) endStar2.enabled = true;
+        if (starsAchieved >= 3) endStar3.enabled = true;
+    }
+    */
+
     void Display(float timeDisplayed) {
     timeDisplayed += 1;
     float minutes = Mathf.FloorToInt(timeDisplayed / 60);
     float seconds = Mathf.FloorToInt(timeDisplayed % 60);
     GameText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
+
 
     public void RestartGame() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

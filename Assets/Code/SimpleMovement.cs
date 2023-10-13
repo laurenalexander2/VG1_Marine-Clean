@@ -74,12 +74,31 @@ namespace movement
             if (Input.GetKey(KeyCode.W))
             {
                 _rigidbody2D.AddForce(Vector2.up * speed * Time.deltaTime);
+                //horizontal thrust
+                if (Input.GetKey(KeyCode.Space))
+                {
+                    if (fuel > 0)
+                    {
+                        fuel = fuel - (fuelSpendSpeed * Time.deltaTime);
+                        // print(fuel);
+                        _rigidbody2D.AddForce(Vector2.up * jetSpeed * Time.deltaTime, ForceMode2D.Impulse);
+                    }
+                }
             }
 
             //Move Player Down
             if (Input.GetKey(KeyCode.S))
             {
                 _rigidbody2D.AddForce(Vector2.down * speed * Time.deltaTime);
+                if (Input.GetKey(KeyCode.Space))
+                {
+                    if (fuel > 0)
+                    {
+                        fuel = fuel - (fuelSpendSpeed * Time.deltaTime);
+                        // print(fuel);
+                        _rigidbody2D.AddForce(Vector2.down * jetSpeed * Time.deltaTime, ForceMode2D.Impulse);
+                    }
+                }
             }
 
            
