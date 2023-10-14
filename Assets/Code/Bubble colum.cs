@@ -51,5 +51,6 @@ public class Bubblecolum : MonoBehaviour
             _rigidBody.AddForce(slope * power * Time.deltaTime);
         
     }
+   
     }
 
