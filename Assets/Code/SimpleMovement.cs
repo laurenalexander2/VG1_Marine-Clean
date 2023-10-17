@@ -12,12 +12,15 @@ namespace movement
         public float fuelSpendSpeed;
         public float fuelRegen;
         public float fuelMax;
+        SpriteRenderer sprite;
 
         //Methods
         void Start()
         {
             _rigidbody2D = GetComponent<Rigidbody2D>();
             fuel = fuelMax;
+
+            sprite = GetComponent<SpriteRenderer>();
         }
 
         //state tracker
@@ -40,6 +43,7 @@ namespace movement
             if (Input.GetKey(KeyCode.A))
             {
                 _rigidbody2D.AddForce(Vector2.left * speed * Time.deltaTime);
+                sprite.flipX = true;
                 //horizontal thrust
                 if (Input.GetKey(KeyCode.Space))
                 {
@@ -58,6 +62,7 @@ namespace movement
             if (Input.GetKey(KeyCode.D))
             {
                 _rigidbody2D.AddForce(Vector2.right * speed * Time.deltaTime);
+                sprite.flipX = false;
                 //horizontal thrust
                 if (Input.GetKey(KeyCode.Space))
                 {
