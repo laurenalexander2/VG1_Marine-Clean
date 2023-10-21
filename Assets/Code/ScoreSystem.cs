@@ -22,9 +22,9 @@ public class ScoreSystem : MonoBehaviour
     void Start()
     {   
         points  = 0;
-        var manditoryObjectives = GameObject.FindGameObjectsWithTag("ManObj");
-        var objCount = manditoryObjectives.Length;
-        foreach ( var obj in manditoryObjectives ) {
+        var mandatoryObjectives = GameObject.FindGameObjectsWithTag("ManObj");
+        var objCount = mandatoryObjectives.Length;
+        foreach ( var obj in mandatoryObjectives ) {
          int mPoints =  obj.GetComponent<PickUp>().pointValue;
             startPoints = startPoints + mPoints;
             

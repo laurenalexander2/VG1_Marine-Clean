@@ -26,12 +26,12 @@ public class Stars : MonoBehaviour
     void Update()
     {
 
-    if(time.timerOn == false) {
+    if(time.timerOn == true) {
           float targetScore = Timer.GetComponent<ScoreSystem>().startPoints;
             //print(targetScore);
-           float aceivedScore = Timer.GetComponent<ScoreSystem>().points;
+           float achievedScore = Timer.GetComponent<ScoreSystem>().points;
            // print(aceivedScore);
-            float scorePercentage = aceivedScore/targetScore;
+            float scorePercentage = achievedScore/targetScore;
            // print(scorePercentage);
                 if (scorePercentage >= .9 ){
                     star = 3;
@@ -70,5 +70,7 @@ public class Stars : MonoBehaviour
     }
     public int GetStarCount() {
         return star;
+        ;
     }
+
 }

@@ -1452,9 +1452,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3109767646003715296, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3777338646564705953, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
       propertyPath: m_Name
       value: UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667143811453463340, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 507707383197095648, guid: 8cec6673bb1573a45b6a03c1be642458, type: 3}
+    - target: {fileID: 4667143811453463340, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667143811453463340, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TimerCode, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667143811453463340, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4946594387667880275, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2141,8 +2161,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 15.845367, y: -86.017654}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 27.633, y: 7.967}
+  m_SizeDelta: {x: 79.7236, y: 73.485}
   m_Pivot: {x: 0.6584537, y: -0.36017662}
 --- !u!114 &528157279
 MonoBehaviour:
@@ -2216,8 +2236,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 69.6181, y: -86.77222}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 171.5, y: 7.4125}
+  m_SizeDelta: {x: 78.1639, y: 73.485}
   m_Pivot: {x: 1.1961809, y: -0.3677222}
 --- !u!114 &532214542
 MonoBehaviour:
@@ -3022,6 +3042,10 @@ PrefabInstance:
     - target: {fileID: 8398461461211186627, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
       propertyPath: m_Name
       value: PC
+      objectReference: {fileID: 0}
+    - target: {fileID: 8398461461211186627, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8769876289874484835, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
       propertyPath: target
@@ -3863,8 +3887,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 248042406}
     - target: {fileID: 507707383197095648, guid: 8cec6673bb1573a45b6a03c1be642458, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: da30f99c9cfd949c3bce00a4f128b4d5, type: 2}
+    - target: {fileID: 507707383197095648, guid: 8cec6673bb1573a45b6a03c1be642458, type: 3}
       propertyPath: timerOn
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 507707383197095648, guid: 8cec6673bb1573a45b6a03c1be642458, type: 3}
       propertyPath: GameText
@@ -3890,6 +3918,10 @@ PrefabInstance:
       propertyPath: starScript
       value: 
       objectReference: {fileID: 1036998488}
+    - target: {fileID: 507707383197095648, guid: 8cec6673bb1573a45b6a03c1be642458, type: 3}
+      propertyPath: timeRemaining
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 4694724864449473130, guid: 8cec6673bb1573a45b6a03c1be642458, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4269,8 +4301,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -42.299988, y: -87.03505}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -129, y: -22.468}
+  m_SizeDelta: {x: 75.0445, y: 73.4847}
   m_Pivot: {x: 0.00000013783574, y: -0.7743504}
 --- !u!114 &1141019432
 MonoBehaviour:
