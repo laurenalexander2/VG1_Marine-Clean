@@ -15,9 +15,12 @@ public DataManager data;
        public KeyCode activationKey = KeyCode.Space; // Change this to the desired activation key
        private LevelInfo InfoScript;
        public Button Play;
+       private Rigidbody2D rb;
+
        //private static Button commonPlay;
     void OnCollisionEnter2D(Collision2D collision)
     {
+        rb.velocity = Vector2.zero;
         if (Input.GetKey(activationKey) && (collision.gameObject.CompareTag("Player") == true))
         {
         SetButtonFunc(() => LoadScene(nextSceneName));
@@ -39,6 +42,12 @@ public DataManager data;
         }
 
     }
+    void OnTriggerEnter2D(Collider2D collider){
+        if(Input.GetKey(activationKey) && (collider.gameObject.CompareTag("Player") == true)){
+            SetButtonFunc(() => LoadScene(nextSceneName));
+            StartScreen.SetActive(true);
+        }
+    }
 public void SetButtonFunc(UnityAction action){
     Play.onClick.RemoveAllListeners();
     Play.onClick.AddListener(action);
@@ -55,9 +64,10 @@ public void BackButton(){
 //public void Play(){
    // SceneManager.LoadScene(nextSceneName);
 //}
-private void Start() {
+ void Start() {
    InfoScript = gameObject.GetComponent<LevelInfo>();
-
+    rb = GetComponent<Rigidbody2D>();
 }
+
 
 }

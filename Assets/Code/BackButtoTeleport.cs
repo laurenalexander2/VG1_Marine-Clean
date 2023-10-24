@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class BackButtonTeleport : MonoBehaviour
 {
     // Start is called before the first frame update
+    public GameObject destination0;
     public GameObject destination1;
     public GameObject destination2;
     public GameObject destination3;
@@ -13,11 +14,13 @@ public class BackButtonTeleport : MonoBehaviour
     public Button teleportButton;
     private Rigidbody2D rb;
     public GameObject StartScreen;
+    public DataManager data;
 
 
     void Start()
     {
     rb = GetComponent<Rigidbody2D>();
+
     teleportButton.onClick.AddListener(TeleportPlayer);
 
     }
@@ -43,22 +46,25 @@ public class BackButtonTeleport : MonoBehaviour
 
     GameObject DetermineTeleportDestination(Vector3 playerPosition)
     {
-
-        if (playerPosition.y < 80)
+        if (data.highscore1 > 0)
         {
             return destination1;
         }
-        else if (playerPosition.y < 140)
+        else if (data.highscore2 > 0)
         {
             return destination2;
         }
-        else if (playerPosition.y < 180)
+        else if (data.highscore3 > 0)
         {
             return destination3;
         }
-        else
+        else if(data.highscore4 > 0)
         {
             return destination4;
+        }
+        else {
+            StartScreen.SetActive(false);
+            return destination0;
         }
     }
 

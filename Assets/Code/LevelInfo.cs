@@ -12,6 +12,8 @@ public GameObject Star1;
 public GameObject Star2;
 public GameObject Star3;
 public bool completed = false;
+private BoxCollider2D myCollider;
+
 //public string nextSceneName;
 
 [SerializeField]
@@ -19,6 +21,7 @@ public DataManager data;
     // Start is called before the first frame updated
     void Start()
     {
+        myCollider = GetComponent<BoxCollider2D>();
     //GameObject StarLevels = GameObject.Find(parentObjectName);
 
         //Star1.SetActive(false);// = false;
@@ -42,6 +45,7 @@ public DataManager data;
             }
         if (Highscore >= 1) {
             SpriteRenderer s1 = Star1.GetComponent<SpriteRenderer>();
+            myCollider.isTrigger = true;
             s1.enabled = true;
 
             }// = true;
