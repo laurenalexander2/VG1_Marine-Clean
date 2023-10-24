@@ -110,7 +110,7 @@ public class TimerCode : MonoBehaviour
     public void MainMenu() {
         string scene = SceneManager.GetActiveScene().name;
         SceneManager.LoadScene("Overworld Map");
-        SceneManager.UnloadScene(scene);
+        SceneManager.UnloadSceneAsync(scene);
     }
 
 }

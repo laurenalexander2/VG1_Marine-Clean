@@ -113,6 +113,10 @@ namespace movement
            
 
         }
+        public void test(){
+            Debug.Log("testing");
+        }
 
     }
+
 }
