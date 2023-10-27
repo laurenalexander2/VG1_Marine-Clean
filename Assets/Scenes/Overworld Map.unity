@@ -1540,6 +1540,7 @@ MonoBehaviour:
   StartScreen: {fileID: 1235733556}
   activationKey: 32
   Play: {fileID: 364480645}
+  player: {fileID: 1589845394}
 --- !u!114 &379408355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2411,6 +2412,7 @@ MonoBehaviour:
   StartScreen: {fileID: 1235733556}
   activationKey: 32
   Play: {fileID: 364480645}
+  player: {fileID: 1589845394}
 --- !u!114 &982906369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3383,6 +3385,7 @@ MonoBehaviour:
   StartScreen: {fileID: 1235733556}
   activationKey: 32
   Play: {fileID: 364480645}
+  player: {fileID: 1589845394}
 --- !u!114 &1465531421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4257,6 +4260,7 @@ MonoBehaviour:
   StartScreen: {fileID: 1235733556}
   activationKey: 32
   Play: {fileID: 364480645}
+  player: {fileID: 1589845394}
 --- !u!114 &1853531269
 MonoBehaviour:
   m_ObjectHideFlags: 0

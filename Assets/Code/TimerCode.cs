@@ -17,7 +17,8 @@ public class TimerCode : MonoBehaviour
     public Image endStar2;
     public Image endStar3;
     public Stars starScript;
-    public SubmarineHealth player;
+    private SubmarineHealth health;
+    public GameObject player;
     //public DataManager data;
 
     [SerializeField]
@@ -25,7 +26,7 @@ public class TimerCode : MonoBehaviour
 
     private void Awake() {
         starScript = GetComponent<Stars>();
-        player = GetComponent<SubmarineHealth>();
+        health = player.GetComponent<SubmarineHealth>();
 
     }
 
@@ -42,13 +43,14 @@ public class TimerCode : MonoBehaviour
             if(timeRemaining > 0) {
             timeRemaining -= Time.deltaTime;
             Display(timeRemaining);
-            }else if(player.currentHealth <=0 ){
-            Debug.Log("Game Over");
-            timeRemaining = 0;
-            timerOn = false;
-            UpdateEndScreenStars();
-            HighscoreSave();
-            endScreen.SetActive(true);
+            }
+            else if(timerOn = true && health.currentHealth <= 0 ){
+                Debug.Log("Game Over");
+                timeRemaining = 0;
+                timerOn = false;
+                UpdateEndScreenStars();
+                HighscoreSave();
+                endScreen.SetActive(true);
 
             } else {
                     Debug.Log("Game Over");

@@ -16,6 +16,7 @@ public DataManager data;
        private LevelInfo InfoScript;
        public Button Play;
        private Rigidbody2D rb;
+       public GameObject player;
 
        //private static Button commonPlay;
     void OnCollisionEnter2D(Collision2D collision)
@@ -44,6 +45,7 @@ public DataManager data;
     }
     void OnTriggerEnter2D(Collider2D collider){
         if(Input.GetKey(activationKey) && (collider.gameObject.CompareTag("Player") == true)){
+            rb.velocity = Vector2.zero;
             SetButtonFunc(() => LoadScene(nextSceneName));
             StartScreen.SetActive(true);
         }
@@ -66,7 +68,7 @@ public void BackButton(){
 //}
  void Start() {
    InfoScript = gameObject.GetComponent<LevelInfo>();
-    rb = GetComponent<Rigidbody2D>();
+    rb = player.GetComponent<Rigidbody2D>();
 }
 
 
