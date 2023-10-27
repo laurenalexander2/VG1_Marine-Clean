@@ -14,12 +14,17 @@ public class SubmarineHealth : MonoBehaviour
     public float scrapeSense;
     public GameObject target;
     public int pointValue;
+    public GameObject timer;
+    private TimerCode timerScript;
+    public GameObject endScreen;
 
             void Start()
             {
                  currentHealth = maxHealth;
                  healthBar.SetMaxHealth(maxHealth);
-         healthBar.SetHealth(currentHealth);
+                 healthBar.SetHealth(currentHealth);
+                 timerScript = timer.GetComponent<TimerCode>();
+
             }
 
             // Update is called once per frame
@@ -43,6 +48,11 @@ public class SubmarineHealth : MonoBehaviour
                 velocityDifference = other.relativeVelocity.magnitude;
                     currentHealth = currentHealth - velocityDifference*impactScalar;
                     healthBar.SetHealth(currentHealth);
+
+                    if(currentHealth <= 0){
+                        endScreen.SetActive(true);
+                        timerScript.timerOn = false;
+                    }
               //  Debug.Log(currentHp);
               // }
             }
@@ -53,6 +63,11 @@ public class SubmarineHealth : MonoBehaviour
                 {
                     currentHealth = currentHealth - velocityDifference * scrapeScalar * Time.deltaTime;
                    healthBar.SetHealth(currentHealth);
+                   if(currentHealth <= 0){
+                   endScreen.SetActive(true);
+                   timerScript.timerOn = false;
+                                       }
+
                    // Debug.Log(currentHp);
                 }
             }
