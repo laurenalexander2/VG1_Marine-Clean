@@ -3095,6 +3095,18 @@ PrefabInstance:
       propertyPath: slider
       value: 
       objectReference: {fileID: 212604131}
+    - target: {fileID: 7118659758913331224, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
+      propertyPath: timer
+      value: 
+      objectReference: {fileID: 1419322326}
+    - target: {fileID: 7118659758913331224, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
+      propertyPath: timerOn
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7118659758913331224, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
+      propertyPath: endScreen
+      value: 
+      objectReference: {fileID: 1158942290}
     - target: {fileID: 8398461461211186627, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
       propertyPath: m_Name
       value: PC
