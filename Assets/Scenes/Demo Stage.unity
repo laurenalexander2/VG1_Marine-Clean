@@ -3116,12 +3116,20 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8769876289874484835, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
+      propertyPath: timer
+      value: 
+      objectReference: {fileID: 1419322326}
+    - target: {fileID: 8769876289874484835, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 2145734208}
     - target: {fileID: 8769876289874484835, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
+      propertyPath: endScreen
+      value: 
+      objectReference: {fileID: 1158942290}
+    - target: {fileID: 8769876289874484835, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
       propertyPath: maxHealth
-      value: 1000
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4279765980898801525, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
