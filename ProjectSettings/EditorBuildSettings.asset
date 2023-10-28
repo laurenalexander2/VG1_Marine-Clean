@@ -14,7 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Demo Stage.unity
     guid: 70a4852b9f474ec4bb9c63cb4d65d7b4
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Overworld Map.unity
     guid: 91caf0a54318f4d528eec58d595322de
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 1e4bf82f0c76d4778a3cb60c51d298a0
   m_configObjects: {}
