@@ -6,15 +6,17 @@ public class PickUp : MonoBehaviour
 {
 
     public int pointValue;
+    public int scrapValue;
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.gameObject.layer == LayerMask.NameToLayer("Garbage"))
+        if (collider.gameObject.layer == LayerMask.NameToLayer("player Character"))
         {
             //adding point
             //ScoreSystem.instance.AddPoint(pointValue);
             GameObject.Find("Timer").GetComponent<ScoreSystem>().AddPoint(pointValue);
-            Destroy(collider.gameObject);
+            GameObject.Find("Timer").GetComponent<ScrapSystem>().addScrap(scrapValue);
+            Destroy(gameObject);
         }
 
     }

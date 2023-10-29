@@ -1,8 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace movement
-{
+
     public class SimpleMovement : MonoBehaviour
     {
         //Outlet
@@ -116,7 +115,11 @@ namespace movement
         public void test(){
             Debug.Log("testing");
         }
-
+        public void upgradeJets()
+        {
+            fuelMax += 15;
+            fuelRegen += 2;
+        }
     }
+    
 
-}

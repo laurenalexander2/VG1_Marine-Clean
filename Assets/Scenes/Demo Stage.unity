@@ -1538,7 +1538,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5030421611595580229, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.002494812
+      value: 0.0024871826
       objectReference: {fileID: 0}
     - target: {fileID: 5030421611595580229, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3129,10 +3129,11 @@ PrefabInstance:
       objectReference: {fileID: 1158942290}
     - target: {fileID: 8769876289874484835, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
       propertyPath: maxHealth
-      value: 100
+      value: 1000
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4279765980898801525, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
+    - {fileID: 6530192415779519505, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4077,7 +4078,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5259233847303451041, guid: 8cec6673bb1573a45b6a03c1be642458, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1419322331}
   m_SourcePrefab: {fileID: 100100000, guid: 8cec6673bb1573a45b6a03c1be642458, type: 3}
 --- !u!114 &1036998488 stripped
 MonoBehaviour:
@@ -5061,6 +5065,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7248b39b216044f691636e2fa7ffb9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1419322331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419322326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b9cb3bdbed71943aee1095a9b23891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrap: 0
+  repairCost: 5
+  upgradeJetCost: 5
+  upgradeHullCost: 5
 --- !u!1001 &1430831258
 PrefabInstance:
   m_ObjectHideFlags: 0

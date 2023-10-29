@@ -212,6 +212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointValue: 2
+  scrapValue: 1
 --- !u!60 &6076506281111468125
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -248,7 +249,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.26666668, y: 0.336}
+    oldSize: {x: 0.6666667, y: 0.84}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
