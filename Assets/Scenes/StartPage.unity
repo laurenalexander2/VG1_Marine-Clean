@@ -463,6 +463,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2023265250}
+  - component: {fileID: 2023265251}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -491,6 +492,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0.8218014, y: -0.27398092}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2023265251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023265249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1ceb539b5a44ed6bdbcaea0e5d85a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Overworld Map
 --- !u!1 &2055406936
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,8 +564,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\nCollect as much pollution before time runs out. Hitting the reefs will
     \ndamage your submarine, but whatever you do... Avoid the sharks!\n\nUse the
-    [spacebar] to move and the [W][A][S][D] keys to change direction.\n\nClick any
-    key to start."
+    [spacebar] to Thrust and the [W][A][S][D] keys to change direction. \nThrust
+    through the level zone to begin that level.\n\nClick any key to start."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
