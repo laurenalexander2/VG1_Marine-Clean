@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 507707383197095648}
   - component: {fileID: 4144738537064292048}
   - component: {fileID: 445551470452164032}
+  - component: {fileID: 4061813553625790424}
   m_Layer: 0
   m_Name: Timer
   m_TagString: Untagged
@@ -46,10 +47,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7248b39b216044f691636e2fa7ffb9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 60
+  timeRemaining: 30
   timerOn: 0
   GameText: {fileID: 0}
   endScreen: {fileID: 0}
+  endStar1: {fileID: 0}
+  endStar2: {fileID: 0}
+  endStar3: {fileID: 0}
+  starScript: {fileID: 445551470452164032}
+  player: {fileID: 0}
+  data: {fileID: 11400000, guid: da30f99c9cfd949c3bce00a4f128b4d5, type: 2}
 --- !u!114 &4144738537064292048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84,3 +91,19 @@ MonoBehaviour:
   star: 0
   Timer: {fileID: 5259233847303451041}
   time: {fileID: 507707383197095648}
+--- !u!114 &4061813553625790424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5259233847303451041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b9cb3bdbed71943aee1095a9b23891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrap: 0
+  repairCost: 5
+  upgradeJetCost: 5
+  upgradeHullCost: 5

@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHp: 100
-  impactScalar: 20
+  impactScalar: 2
   scrapeScalar: 40
   scrapeSense: 0.05
   target: {fileID: 0}

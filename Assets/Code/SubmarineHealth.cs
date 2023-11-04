@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SubmarineHealth : MonoBehaviour
 {
@@ -49,6 +50,7 @@ public class SubmarineHealth : MonoBehaviour
         currentHealth = currentHealth - velocityDifference * impactScalar;
         healthBar.SetHealth(currentHealth);
 
+
         if (currentHealth <= 0) {
             endScreen.SetActive(true);
             timerScript.timerOn = false;
@@ -63,6 +65,7 @@ public class SubmarineHealth : MonoBehaviour
         {
             currentHealth = currentHealth - velocityDifference * scrapeScalar * Time.deltaTime;
             healthBar.SetHealth(currentHealth);
+
             if (currentHealth <= 0) {
                 endScreen.SetActive(true);
                 timerScript.timerOn = false;
@@ -79,12 +82,15 @@ public class SubmarineHealth : MonoBehaviour
             currentHealth = maxHealth;
         }
         healthBar.SetHealth(currentHealth);
+
     }
     public void upgradeHull()
     {
         scrapeScalar = scrapeScalar - (scrapeScalar / 25);
         impactScalar= impactScalar - (impactScalar / 10);
     }
+
+
 }
  
 
