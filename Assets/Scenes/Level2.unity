@@ -1708,7 +1708,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!61 &253277027
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2291,7 +2291,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!61 &321319744
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2905,7 +2905,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!61 &398018195
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3369,7 +3369,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!61 &538621998
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3890,7 +3890,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!61 &585281247
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6144,7 +6144,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!61 &1092985430
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8401,6 +8401,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 1786969197341890084, guid: f39c9aaf2bbfe46008a950f858b0b591, type: 3}
+      propertyPath: m_TagString
+      value: level
+      objectReference: {fileID: 0}
     - target: {fileID: 3479252446649487757, guid: f39c9aaf2bbfe46008a950f858b0b591, type: 3}
       propertyPath: m_Name
       value: Rockwall
@@ -8408,6 +8412,10 @@ PrefabInstance:
     - target: {fileID: 3479252446649487757, guid: f39c9aaf2bbfe46008a950f858b0b591, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479252446649487757, guid: f39c9aaf2bbfe46008a950f858b0b591, type: 3}
+      propertyPath: m_TagString
+      value: level
       objectReference: {fileID: 0}
     - target: {fileID: 3906118056774611129, guid: f39c9aaf2bbfe46008a950f858b0b591, type: 3}
       propertyPath: m_Size.x
@@ -17240,7 +17248,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!61 &1486571015
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20658,7 +20666,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!61 &2070038791
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -46,6 +46,9 @@ public class SubmarineHealth : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other) {
         /* if (other.gameObject.GetComponent<SimpleMovement>())
          {*/
+         if (other.gameObject.CompareTag("level")) {
+            return;
+         }
         velocityDifference = other.relativeVelocity.magnitude;
         currentHealth = currentHealth - velocityDifference * impactScalar;
         healthBar.SetHealth(currentHealth);
@@ -60,6 +63,9 @@ public class SubmarineHealth : MonoBehaviour
     }
     void OnCollisionStay2D(Collision2D other)
     {
+        if (other.gameObject.CompareTag("level")) {
+            return;
+        }
         velocityDifference = other.relativeVelocity.magnitude;
         if (velocityDifference > scrapeSense)
         {

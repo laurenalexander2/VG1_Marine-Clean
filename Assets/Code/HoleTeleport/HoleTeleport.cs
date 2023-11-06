@@ -16,11 +16,14 @@ public class HoleTeleport : MonoBehaviour
     public GameObject hole8;
     private Rigidbody2D rb;
     private string hole;
+    private static float lastTeleportTime;
+    public static float teleportCooldown = 5f;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        lastTeleportTime = -teleportCooldown;
     }
 
     // Update is called once per frame
@@ -29,27 +32,33 @@ public class HoleTeleport : MonoBehaviour
         
     }
     void OnCollisionEnter2D(Collision2D collision){
-        hole = gameObject.name;
-        //hole = collision.GetComponent
-        TeleportPlayer(hole);
+        if(Time.time - lastTeleportTime >= teleportCooldown){
+            hole = gameObject.name;
+
+            GameObject chosenTeleportDestination = DetermineTeleportDestination(hole);
+                    //hole = collision.GetComponent
+            TeleportPlayer(collision.gameObject, chosenTeleportDestination);
+            lastTeleportTime = Time.time;
+        }
+
     }
 
-        void TeleportPlayer(string hole)
+        void TeleportPlayer(GameObject player, GameObject teleportDestination)
     {
         //player's current position
-        Vector3 playerPosition = transform.position;
+        //Vector3 playerPosition = transform.position;
 
         // Determine which teleport destination to use based on the player's position
-        GameObject chosenTeleportDestination = DetermineTeleportDestination(playerPosition);
 
-        if (chosenTeleportDestination != null) {
-            transform.position = chosenTeleportDestination.transform.position;
-            rb.velocity = Vector2.zero;
+
+        if (teleportDestination != null) {
+            player.transform.position = teleportDestination.transform.position;
+            player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
          }else {
             Debug.LogError("Teleport destination not determined!");
          }
-
-    GameObject DetermineTeleportDestination(Vector3 playerPosition)
+    }
+    GameObject DetermineTeleportDestination(string hole)
     {
         if (hole == "hole1") {
             return hole2;
@@ -78,6 +87,5 @@ public class HoleTeleport : MonoBehaviour
         return null;
     }
 
-}
 }
 
