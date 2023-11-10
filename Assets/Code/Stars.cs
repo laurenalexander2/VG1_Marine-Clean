@@ -16,7 +16,7 @@ public class Stars : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+ 
     Star1.enabled = false;
     Star2.enabled = false;
     Star3.enabled = false;
@@ -26,7 +26,7 @@ public class Stars : MonoBehaviour
     void Update()
     {
 
-    if(time.timerOn == true) {
+    if(time != null && time.timerOn == true && counter!=null) {
           float targetScore = Timer.GetComponent<ScoreSystem>().startPoints;
             //print(targetScore);
            float achievedScore = Timer.GetComponent<ScoreSystem>().points;
@@ -44,10 +44,11 @@ public class Stars : MonoBehaviour
                     StarDisplay(star);
                 }else{
                     star = 0;
-                    StarDisplay(star);
+              
 
                 }
-    }
+            StarDisplay(star);
+        }
     }
     void StarDisplay(int starscore) {
             if(starscore == 3){

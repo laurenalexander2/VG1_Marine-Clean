@@ -31,17 +31,26 @@ public class SubmarineHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentHealth <= 0) {
+        if (healthBar != null)
+        {
+            if (currentHealth <= 0)
+            {
 
-            GameObject.Find("Timer").GetComponent<ScoreSystem>().AddPoint(pointValue);
-            // target.GetComponent<ScoreSystem>().points = target.GetComponent<ScoreSystem>().points - pointValue;
-            //ScoreSystem.AddPoint(pointValue);
-            print(target.GetComponent<ScoreSystem>().points);
+                GameObject.Find("Timer").GetComponent<ScoreSystem>().AddPoint(pointValue);
+                // target.GetComponent<ScoreSystem>().points = target.GetComponent<ScoreSystem>().points - pointValue;
+                //ScoreSystem.AddPoint(pointValue);
+                print(target.GetComponent<ScoreSystem>().points);
 
 
-            Destroy(gameObject);
+                Destroy(gameObject);
 
+            }
         }
+        else
+        {
+            Debug.LogError("HealthBarScript is not assigned!");
+        }
+
     }
     void OnCollisionEnter2D(Collision2D other) {
         /* if (other.gameObject.GetComponent<SimpleMovement>())
@@ -50,13 +59,22 @@ public class SubmarineHealth : MonoBehaviour
             return;
          }
         velocityDifference = other.relativeVelocity.magnitude;
-        currentHealth = currentHealth - velocityDifference * impactScalar;
-        healthBar.SetHealth(currentHealth);
+        if (healthBar != null)
+        {
+            currentHealth = currentHealth - velocityDifference * impactScalar;
+            healthBar.SetHealth(currentHealth);
+
+        }
 
 
         if (currentHealth <= 0) {
-            endScreen.SetActive(true);
-            timerScript.timerOn = false;
+            if (endScreen != null) {
+                endScreen.SetActive(true);
+            }
+            if (timer != null) {
+                timerScript.timerOn = false;
+            }
+            
         }
         //  Debug.Log(currentHp);
         // }
