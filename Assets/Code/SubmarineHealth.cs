@@ -33,7 +33,8 @@ public class SubmarineHealth : MonoBehaviour
     {
         if (healthBar != null)
         {
-            if (currentHealth <= 0)
+            //adding GameObject.Find("Timer") resolved red errors (null pointer exception)
+            if (currentHealth <= 0 && GameObject.Find("Timer"))
             {
 
                 GameObject.Find("Timer").GetComponent<ScoreSystem>().AddPoint(pointValue);
