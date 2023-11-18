@@ -1461,6 +1461,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3036183305966024704, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e7413f96503564cffa0136d54c8ea40c, type: 3}
+    - target: {fileID: 3062890710700194843, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e7413f96503564cffa0136d54c8ea40c, type: 3}
     - target: {fileID: 3777338646564705953, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
       propertyPath: m_Name
       value: UI
@@ -1481,6 +1489,10 @@ PrefabInstance:
       propertyPath: counter
       value: 
       objectReference: {fileID: 1419322328}
+    - target: {fileID: 8140118749816568404, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e7413f96503564cffa0136d54c8ea40c, type: 3}
     - target: {fileID: 8320648387787635517, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
       propertyPath: time
       value: 

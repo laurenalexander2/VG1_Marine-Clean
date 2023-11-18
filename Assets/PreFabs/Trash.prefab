@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 6076506281111468125}
   m_Layer: 6
   m_Name: Trash
-  m_TagString: ManObj
+  m_TagString: Trash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

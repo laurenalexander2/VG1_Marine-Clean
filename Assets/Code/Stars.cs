@@ -26,7 +26,7 @@ public class Stars : MonoBehaviour
     void Update()
     {
 
-    if(time != null && time.timerOn == true && counter!=null) {
+    if(time != null && time.timerOn == true && counter != null) {
           float targetScore = Timer.GetComponent<ScoreSystem>().startPoints;
             //print(targetScore);
            float achievedScore = Timer.GetComponent<ScoreSystem>().points;
@@ -71,7 +71,6 @@ public class Stars : MonoBehaviour
     }
     public int GetStarCount() {
         return star;
-        ;
     }
 
 }

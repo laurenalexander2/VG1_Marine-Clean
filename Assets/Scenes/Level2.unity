@@ -175,6 +175,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -231,6 +239,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -289,6 +305,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (130)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -345,6 +369,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -403,6 +435,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -460,6 +500,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -476,6 +524,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -585,6 +637,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -641,6 +701,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (134)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -699,6 +767,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -756,6 +832,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -772,6 +856,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -829,6 +917,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -927,6 +1019,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -983,6 +1083,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (94)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1041,6 +1149,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1098,6 +1214,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1154,6 +1278,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (113)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1277,6 +1409,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1333,6 +1473,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1391,6 +1539,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (133)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1448,6 +1604,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1464,6 +1628,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1741,7 +1909,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0000009536743, y: -0.05165434}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1752,7 +1920,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.14, y: 1.32}
+  m_Size: {x: 0.7267666, y: 0.73458385}
   m_EdgeRadius: 0
 --- !u!1001 &261181997
 PrefabInstance:
@@ -1805,6 +1973,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1863,6 +2039,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1919,6 +2103,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1977,6 +2169,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2033,6 +2233,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2091,6 +2299,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2112,6 +2328,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2324,7 +2544,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.015965462, y: -0.03193283}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2335,7 +2555,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.14, y: 1.32}
+  m_Size: {x: 0.788744, y: 0.80908203}
   m_EdgeRadius: 0
 --- !u!1001 &326809899
 PrefabInstance:
@@ -2389,6 +2609,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2438,6 +2666,22 @@ PrefabInstance:
       propertyPath: endScreen
       value: 
       objectReference: {fileID: 288033171}
+    - target: {fileID: 507707383197095648, guid: 8cec6673bb1573a45b6a03c1be642458, type: 3}
+      propertyPath: timeRemaining
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 4144738537064292048, guid: 8cec6673bb1573a45b6a03c1be642458, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4144738537064292048, guid: 8cec6673bb1573a45b6a03c1be642458, type: 3}
+      propertyPath: progressBar
+      value: 
+      objectReference: {fileID: 1158096347}
+    - target: {fileID: 4144738537064292048, guid: 8cec6673bb1573a45b6a03c1be642458, type: 3}
+      propertyPath: startPoints
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 4694724864449473130, guid: 8cec6673bb1573a45b6a03c1be642458, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2539,6 +2783,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2595,6 +2847,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2653,6 +2913,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (120)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2710,6 +2978,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2766,6 +3042,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2938,7 +3222,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.05165434}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2949,7 +3233,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.14, y: 1.32}
+  m_Size: {x: 0.8645096, y: 0.73458385}
   m_EdgeRadius: 0
 --- !u!1001 &425978303
 PrefabInstance:
@@ -3002,6 +3286,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3060,6 +3352,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3116,6 +3416,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3174,6 +3482,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3230,6 +3546,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3402,7 +3726,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.034436226}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3413,7 +3737,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.14, y: 1.32}
+  m_Size: {x: 0.7956376, y: 0.83789253}
   m_EdgeRadius: 0
 --- !u!1001 &540025972
 PrefabInstance:
@@ -3467,6 +3791,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (135)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3483,6 +3815,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3541,6 +3877,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trash (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.83
@@ -3597,6 +3937,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3695,6 +4039,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (146)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3751,6 +4103,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3923,7 +4283,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.017897606, y: 0.03579563}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3934,7 +4294,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.14, y: 1.32}
+  m_Size: {x: 0.8178406, y: 0.74727166}
   m_EdgeRadius: 0
 --- !u!1 &618002390
 GameObject:
@@ -3966,7 +4326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 0
-  startPoints: 0
+  startPoints: 50
   progressBar: {fileID: 1158096347}
 --- !u!4 &618002392
 Transform:
@@ -4035,6 +4395,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4091,6 +4459,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4160,6 +4536,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4176,6 +4560,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4274,6 +4662,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4330,6 +4726,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4388,6 +4792,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (128)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4444,6 +4856,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4502,6 +4922,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (143)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4518,6 +4946,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4616,6 +5048,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4672,6 +5112,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4730,6 +5178,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (141)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4786,6 +5242,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4844,6 +5308,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4860,6 +5332,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4958,6 +5434,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5014,6 +5498,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (115)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5072,6 +5564,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5128,6 +5628,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5186,6 +5694,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5242,6 +5758,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5300,6 +5824,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5356,6 +5888,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5414,6 +5954,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5470,6 +6018,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5528,6 +6084,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5584,6 +6148,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5642,6 +6214,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5658,6 +6238,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5767,6 +6351,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5783,6 +6375,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5881,6 +6477,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5938,6 +6542,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5994,6 +6606,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6177,7 +6797,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.00000011920929, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6188,7 +6808,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.14, y: 1.32}
+  m_Size: {x: 0.7267649, y: 0.906765}
   m_EdgeRadius: 0
 --- !u!1001 &1106596324
 PrefabInstance:
@@ -6242,6 +6862,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6258,6 +6886,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6356,6 +6988,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6413,6 +7053,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6469,6 +7117,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (136)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6538,6 +7194,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6594,6 +7258,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (126)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6652,6 +7324,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6709,6 +7389,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6725,6 +7413,10 @@ PrefabInstance:
     - target: {fileID: 472130180779095080, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169170720277564820, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2365904674342398244, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
       propertyPath: m_Pivot.x
@@ -6806,6 +7498,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3036183305966024704, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e7413f96503564cffa0136d54c8ea40c, type: 3}
+    - target: {fileID: 3036183305966024704, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062890710700194843, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e7413f96503564cffa0136d54c8ea40c, type: 3}
+    - target: {fileID: 3062890710700194843, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3777338646564705953, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
       propertyPath: m_Name
       value: UI
@@ -6826,6 +7534,14 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5137251082213843426, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
+      propertyPath: m_Transition
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5137251082213843426, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5625544927992719272, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
       propertyPath: time
       value: 
@@ -6834,6 +7550,14 @@ PrefabInstance:
       propertyPath: Timer
       value: 
       objectReference: {fileID: 2064672095}
+    - target: {fileID: 8140118749816568404, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e7413f96503564cffa0136d54c8ea40c, type: 3}
+    - target: {fileID: 8140118749816568404, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8320648387787635517, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
       propertyPath: time
       value: 
@@ -6918,6 +7642,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6974,6 +7706,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7032,6 +7772,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7088,6 +7836,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7282,7 +8038,8 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 1000
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6530192415779519505, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -7338,6 +8095,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7396,6 +8161,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (124)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7453,6 +8226,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (142)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7509,6 +8290,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7635,6 +8424,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7692,6 +8489,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7748,6 +8553,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7871,6 +8684,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (140)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7887,6 +8708,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7985,6 +8810,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8041,6 +8874,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (147)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8099,6 +8940,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8156,6 +9005,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8212,6 +9069,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (148)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8326,6 +9191,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (137)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16625,27 +17498,13 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3479252446649487757, guid: f39c9aaf2bbfe46008a950f858b0b591, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1461523784}
-    - targetCorrespondingSourceObject: {fileID: 3479252446649487757, guid: f39c9aaf2bbfe46008a950f858b0b591, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1461523783}
     - targetCorrespondingSourceObject: {fileID: 1786969197341890084, guid: f39c9aaf2bbfe46008a950f858b0b591, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1461523780}
     - targetCorrespondingSourceObject: {fileID: 1786969197341890084, guid: f39c9aaf2bbfe46008a950f858b0b591, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1461523782}
-    - targetCorrespondingSourceObject: {fileID: 1786969197341890084, guid: f39c9aaf2bbfe46008a950f858b0b591, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1461523781}
   m_SourcePrefab: {fileID: 100100000, guid: f39c9aaf2bbfe46008a950f858b0b591, type: 3}
---- !u!1 &1461523776 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3479252446649487757, guid: f39c9aaf2bbfe46008a950f858b0b591, type: 3}
-  m_PrefabInstance: {fileID: 1461523775}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1461523777 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1786969197341890084, guid: f39c9aaf2bbfe46008a950f858b0b591, type: 3}
@@ -16736,107 +17595,6 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
---- !u!50 &1461523782
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461523777}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 0.0001
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 7
---- !u!19719996 &1461523783
-TilemapCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461523776}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_MaximumTileChangeCount: 1000
-  m_ExtrusionFactor: 0
-  m_UseDelaunayMesh: 0
---- !u!1839735485 &1461523784
-Tilemap:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461523776}
-  m_Enabled: 1
-  m_Tiles: {}
-  m_AnimatedTiles: {}
-  m_TileAssetArray: []
-  m_TileSpriteArray: []
-  m_TileMatrixArray: []
-  m_TileColorArray: []
-  m_TileObjectToInstantiateArray: []
-  m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: 0, y: 0, z: 0}
-  m_Size: {x: 0, y: 0, z: 1}
-  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
-  m_TileOrientation: 0
-  m_TileOrientationMatrix:
-    e00: 1
-    e01: 0
-    e02: 0
-    e03: 0
-    e10: 0
-    e11: 1
-    e12: 0
-    e13: 0
-    e20: 0
-    e21: 0
-    e22: 1
-    e23: 0
-    e30: 0
-    e31: 0
-    e32: 0
-    e33: 1
 --- !u!1001 &1463990705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16888,6 +17646,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16946,6 +17712,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17002,6 +17776,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17060,6 +17842,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17117,6 +17907,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17135,7 +17933,6 @@ GameObject:
   - component: {fileID: 1486571013}
   - component: {fileID: 1486571014}
   - component: {fileID: 1486571016}
-  - component: {fileID: 1486571015}
   m_Layer: 8
   m_Name: hole1
   m_TagString: Untagged
@@ -17257,51 +18054,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!61 &1486571015
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486571010}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.14, y: 1.32}
-    newSize: {x: 1.14, y: 1.32}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.14, y: 1.32}
-  m_EdgeRadius: 0
 --- !u!61 &1486571016
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17334,7 +18086,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.010946274, y: 0.021892548}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -17345,7 +18097,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.14, y: 1.32}
+  m_Size: {x: 0.767828, y: 0.663229}
   m_EdgeRadius: 0
 --- !u!1001 &1490169499
 PrefabInstance:
@@ -17398,6 +18150,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17456,6 +18216,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (138)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17472,6 +18240,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17570,6 +18342,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17626,6 +18406,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17684,6 +18472,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17740,6 +18536,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17798,6 +18602,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (129)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17855,6 +18667,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17871,6 +18691,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17969,6 +18793,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18025,6 +18857,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18083,6 +18923,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (131)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18139,6 +18987,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (125)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18197,6 +19053,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18254,6 +19118,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (139)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18270,6 +19142,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18368,6 +19244,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18424,6 +19308,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (109)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18482,6 +19374,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18538,6 +19438,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18596,6 +19504,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (122)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18652,6 +19568,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18745,6 +19669,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18843,6 +19771,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18900,6 +19836,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18916,6 +19860,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18978,6 +19926,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19076,6 +20028,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19132,6 +20092,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19190,6 +20158,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (127)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19247,6 +20223,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19263,6 +20247,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19361,6 +20349,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19417,6 +20413,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19475,6 +20479,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19531,6 +20543,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (117)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19589,6 +20609,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19645,6 +20673,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19703,6 +20739,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19759,6 +20803,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19817,6 +20869,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19873,6 +20933,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (144)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19996,6 +21064,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20053,6 +21129,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20069,6 +21153,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20167,6 +21255,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20224,6 +21320,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20240,6 +21344,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20338,6 +21446,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20354,6 +21470,10 @@ PrefabInstance:
     - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_Name
       value: Trash (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144090840429058827, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6530587329921721517, guid: 5645ec6a80c34924397561a95a04b2cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20452,6 +21572,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (145)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20508,6 +21636,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20707,7 +21843,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.017896652, y: 0.000000014901161}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -20718,7 +21854,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.14, y: 1.32}
+  m_Size: {x: 0.74625015, y: 0.74727154}
   m_EdgeRadius: 0
 --- !u!1001 &2089022715
 PrefabInstance:
@@ -20837,6 +21973,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20893,6 +22037,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20951,6 +22103,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21007,6 +22167,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (132)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21065,6 +22233,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21121,6 +22297,14 @@ PrefabInstance:
     - target: {fileID: 6374209362162933907, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
       propertyPath: m_Name
       value: Coral (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: alive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617643215439202480, guid: 80bd02a09456a874988447bd9f46bdd6, type: 3}
+      propertyPath: pointValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

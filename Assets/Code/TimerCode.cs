@@ -39,37 +39,52 @@ public class TimerCode : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(timerOn) {
-            if(timeRemaining > 0) {
-            timeRemaining -= Time.deltaTime;
-            Display(timeRemaining);
+        if (timerOn)
+        {
+            // Check if there are no game objects of type "Trash"
+            if (GameObject.FindGameObjectsWithTag("Trash").Length == 0)
+            {
+                // No "Trash" objects found, stop the timer
+                Debug.Log("No Trash objects found. Stopping the timer.");
+                timerOn = false;
+                UpdateEndScreenStars();
+                HighscoreSave();
+                endScreen.SetActive(true);
+                return;  // Exit the Update function
             }
-            else if(timerOn = true && health.currentHealth <= 0 ){
+
+            if (timeRemaining > 0)
+            {
+                timeRemaining -= Time.deltaTime;
+                Display(timeRemaining);
+            }
+            else if (timerOn && health.currentHealth <= 0)
+            {
                 Debug.Log("Game Over");
                 timeRemaining = 0;
                 timerOn = false;
                 UpdateEndScreenStars();
                 HighscoreSave();
                 endScreen.SetActive(true);
+            }
+            else
+            {
+                Debug.Log("Game Over");
+                timeRemaining = 0;
+                timerOn = false;
 
-            } else {
-                    Debug.Log("Game Over");
-                    timeRemaining = 0;
-                    timerOn = false;
-
-                //end screen
+                // end screen
                 UpdateEndScreenStars();
                 HighscoreSave();
                 endScreen.SetActive(true);
-
-              }
+            }
         }
     }
 
     void UpdateEndScreenStars()
     {
         int starsAchieved = starScript.GetStarCount();
-
+        Debug.Log(starsAchieved);
         // Initially set all to false
         endStar1.enabled = false;
         endStar2.enabled = false;
