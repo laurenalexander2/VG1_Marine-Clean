@@ -13,7 +13,7 @@ using UnityEngine.UI;
         public float fuelRegen;
         public float fuelMax;
         SpriteRenderer sprite;
-    public Image imageThrust;
+        public Image imageThrust;
 
 
         //Methods
@@ -23,7 +23,10 @@ using UnityEngine.UI;
             fuel = fuelMax;
 
             sprite = GetComponent<SpriteRenderer>();
-        imageThrust.fillAmount = fuel / fuelMax;
+        if (imageThrust != null)
+        {
+            imageThrust.fillAmount = fuel / fuelMax;
+        }
         }
 
         //state tracker
@@ -115,7 +118,10 @@ using UnityEngine.UI;
 
 
 
-        imageThrust.fillAmount = fuel / fuelMax;
+        if (imageThrust)
+        {
+            imageThrust.fillAmount = fuel / fuelMax;
+        }
 
     }
         public void test(){

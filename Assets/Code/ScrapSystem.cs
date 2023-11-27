@@ -25,14 +25,7 @@ public class ScrapSystem : MonoBehaviour
     }
     void Update()
     {
-        if (scrap >= upgradeHullCost)
-        {
-            upgradeHull();
-        }
-        if (scrap >= upgradeJetCost)
-        {
-            upgradeJets();
-        }
+
     }
     public void repairShip()
     {
