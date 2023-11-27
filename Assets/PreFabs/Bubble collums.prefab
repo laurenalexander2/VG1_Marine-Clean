@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8989762205995411747}
   - component: {fileID: 2253346114733725568}
   - component: {fileID: 3739330790207495175}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bubble collums
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ScrapSystem : MonoBehaviour
 {
@@ -8,6 +9,11 @@ public class ScrapSystem : MonoBehaviour
     public int repairCost;
     public int upgradeJetCost;
     public int upgradeHullCost;
+    public TMP_Text textRepair;
+    public TMP_Text textJets;
+    public TMP_Text textHull;
+    public TMP_Text textScrap;
+    
     // Start is called before the first frame update
 
 
@@ -15,35 +21,51 @@ public class ScrapSystem : MonoBehaviour
     public void addScrap(int scrapValue)
     {
         scrap += scrapValue;
+        textScrap.text = scrap.ToString();
     }
     void Update()
     {
-        if (scrap >= repairCost)
+        if (scrap >= upgradeHullCost)
         {
-            repairShip();
+            upgradeHull();
+        }
+        if (scrap >= upgradeJetCost)
+        {
+            upgradeJets();
         }
     }
-    void repairShip()
+    public void repairShip()
     {
+        Debug.Log("pressed");
         if (scrap >= repairCost)
         {
+            Debug.Log("sufficent funds");
             scrap = scrap - repairCost;
             repairCost = repairCost * 2;
             GameObject.Find("PC").GetComponent<SubmarineHealth>().repair();
-           
+            textRepair.text = "Repair: " + repairCost;
+            textScrap.text = scrap.ToString();
+
         }
     }
-    void upgradeHull()
+   public void upgradeHull()
     {
         if (scrap >= upgradeHullCost)
         {
+            scrap = scrap - upgradeHullCost;
             GameObject.Find("PC").GetComponent<SubmarineHealth>().upgradeHull();
             upgradeHullCost = upgradeHullCost * 2;
+            textHull.text = "Upgrade Hull: " + upgradeHullCost.ToString();
+            textScrap.text = scrap.ToString();
         }
     }
-    void upgradeJets()
+    public void upgradeJets()
     {
+        scrap = scrap - upgradeJetCost;
+        upgradeJetCost = upgradeJetCost * 2;
         GameObject.Find("PC").GetComponent<SimpleMovement>().upgradeJets();
+        textJets.text = "Upgrade Jets: " + upgradeJetCost.ToString();
+        textScrap.text = scrap.ToString();
     }
 }
 

@@ -8,7 +8,7 @@ namespace enviroment {
 
         //Variables
         public float startingHp;
-        private float currentHp;
+        public float currentHp;
         private float velocityDifference;
         public int impactScalar;
         public float scrapeScalar;

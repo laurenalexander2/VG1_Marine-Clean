@@ -211,8 +211,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3df3e1f00e145bb867bb14d3cf4694, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointValue: 2
-  scrapValue: 1
+  pointValue: 10
+  scrapValue: 2
 --- !u!60 &6076506281111468125
 PolygonCollider2D:
   m_ObjectHideFlags: 0

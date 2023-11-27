@@ -10,8 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 938164159707108889}
   - component: {fileID: 186540071188394592}
-  - component: {fileID: 1610524352907295874}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bubble spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48,51 +47,6 @@ MonoBehaviour:
   bubblePrefab: {fileID: 3936375961541043290, guid: 4df24256d48b18c45b82f484358c3360, type: 3}
   intervals: 700
   isOn: 1
---- !u!61 &1610524352907295874
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2599085684504403857}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!1 &6754653868251612654
 GameObject:
   m_ObjectHideFlags: 0
@@ -103,8 +57,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4194742809542126502}
   - component: {fileID: 5823444166024763476}
-  - component: {fileID: -754287168213087507}
-  m_Layer: 0
+  - component: {fileID: 1005202553704958259}
+  m_Layer: 8
   m_Name: BubbleVent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -179,8 +133,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &-754287168213087507
-BoxCollider2D:
+--- !u!60 &1005202553704958259
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -215,12 +169,42 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.16, y: 2.33}
+    oldSize: {x: 1.08, y: 1.165}
     newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2, y: 2}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.48, y: -0.29749998}
+      - {x: 0.48, y: -0.2625}
+      - {x: 0.44, y: -0.1775}
+      - {x: 0.42499998, y: -0.1125}
+      - {x: 0.33499998, y: 0.022499999}
+      - {x: 0.285, y: 0.0525}
+      - {x: 0.21499999, y: 0.19749999}
+      - {x: 0.16499999, y: 0.1925}
+      - {x: 0.14999999, y: 0.3075}
+      - {x: 0.125, y: 0.36749998}
+      - {x: 0.089999996, y: 0.4525}
+      - {x: -0.005, y: 0.4525}
+      - {x: -0.049999997, y: 0.4325}
+      - {x: -0.065, y: 0.4175}
+      - {x: -0.089999996, y: 0.2925}
+      - {x: -0.145, y: 0.24249999}
+      - {x: -0.19, y: 0.16749999}
+      - {x: -0.19999999, y: 0.1175}
+      - {x: -0.19999999, y: 0.0875}
+      - {x: -0.31, y: 0.057499997}
+      - {x: -0.435, y: -0.1475}
+      - {x: -0.47, y: -0.22749999}
+      - {x: -0.48, y: -0.30249998}
+      - {x: -0.465, y: -0.3175}
+      - {x: -0.12, y: -0.36249998}
+      - {x: -0.07, y: -0.36749998}
+      - {x: 0.11, y: -0.36749998}
+      - {x: 0.17, y: -0.33249998}
+      - {x: 0.285, y: -0.3175}
+      - {x: 0.475, y: -0.3075}
+  m_UseDelaunayMesh: 0

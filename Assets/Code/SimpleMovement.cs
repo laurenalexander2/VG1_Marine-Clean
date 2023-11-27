@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
     public class SimpleMovement : MonoBehaviour
     {
@@ -12,6 +13,8 @@ using UnityEngine;
         public float fuelRegen;
         public float fuelMax;
         SpriteRenderer sprite;
+    public Image imageThrust;
+
 
         //Methods
         void Start()
@@ -20,6 +23,7 @@ using UnityEngine;
             fuel = fuelMax;
 
             sprite = GetComponent<SpriteRenderer>();
+        imageThrust.fillAmount = fuel / fuelMax;
         }
 
         //state tracker
@@ -32,11 +36,13 @@ using UnityEngine;
             if ( !Input.GetKey(KeyCode.Space) && fuel < fuelMax)
             {
                 fuel = fuel + (fuelRegen * Time.deltaTime);
-               // print(fuel);
-            }
+               
+            // print(fuel);
+        }
             if ( fuel > fuelMax ) {
                 fuel = fuelMax;
-            }
+                
+        }
 
             //Move Player Left
             if (Input.GetKey(KeyCode.A))
@@ -105,20 +111,20 @@ using UnityEngine;
                 }
             }
 
-           
-          
 
 
-           
 
-        }
+
+        imageThrust.fillAmount = fuel / fuelMax;
+
+    }
         public void test(){
             Debug.Log("testing");
         }
         public void upgradeJets()
         {
-            fuelMax += 15;
-            fuelRegen += 2;
+            fuelMax += 5;
+            fuelRegen += 1;
         }
     }
     

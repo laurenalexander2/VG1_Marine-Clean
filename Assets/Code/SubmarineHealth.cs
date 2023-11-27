@@ -56,9 +56,10 @@ public class SubmarineHealth : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other) {
         /* if (other.gameObject.GetComponent<SimpleMovement>())
          {*/
-         if (other.gameObject.CompareTag("level")) {
+        if (other.gameObject.CompareTag("level"))
+        {
             return;
-         }
+        }
         velocityDifference = other.relativeVelocity.magnitude;
         if (healthBar != null)
         {
@@ -75,7 +76,7 @@ public class SubmarineHealth : MonoBehaviour
             if (timer != null) {
                 timerScript.timerOn = false;
             }
-            
+            Destroy(gameObject);
         }
         //  Debug.Log(currentHp);
         // }
@@ -92,8 +93,10 @@ public class SubmarineHealth : MonoBehaviour
             healthBar.SetHealth(currentHealth);
 
             if (currentHealth <= 0) {
+                
                 endScreen.SetActive(true);
                 timerScript.timerOn = false;
+                Destroy(gameObject);
             }
 
             // Debug.Log(currentHp);
@@ -111,8 +114,10 @@ public class SubmarineHealth : MonoBehaviour
     }
     public void upgradeHull()
     {
-        scrapeScalar = scrapeScalar - (scrapeScalar / 25);
-        impactScalar= impactScalar - (impactScalar / 10);
+        scrapeScalar = scrapeScalar - (scrapeScalar / 4);
+        impactScalar= impactScalar - (impactScalar / 6);
+        maxHealth += 50;
+        healthBar.SetHealth(currentHealth);
     }
 
 

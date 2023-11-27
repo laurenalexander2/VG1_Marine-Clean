@@ -7414,10 +7414,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2169170720277564820, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2365904674342398244, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -7498,49 +7494,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3036183305966024704, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: e7413f96503564cffa0136d54c8ea40c, type: 3}
-    - target: {fileID: 3036183305966024704, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062890710700194843, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: e7413f96503564cffa0136d54c8ea40c, type: 3}
-    - target: {fileID: 3062890710700194843, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3777338646564705953, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
       propertyPath: m_Name
       value: UI
-      objectReference: {fileID: 0}
-    - target: {fileID: 4946594387667880275, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 507707383197095648, guid: 8cec6673bb1573a45b6a03c1be642458, type: 3}
-    - target: {fileID: 4946594387667880275, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RestartGame
-      objectReference: {fileID: 0}
-    - target: {fileID: 5030421611595580229, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5030421611595580229, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5137251082213843426, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
-      propertyPath: m_Transition
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5137251082213843426, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
-      propertyPath: m_Interactable
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5625544927992719272, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
       propertyPath: time
@@ -7550,14 +7506,6 @@ PrefabInstance:
       propertyPath: Timer
       value: 
       objectReference: {fileID: 2064672095}
-    - target: {fileID: 8140118749816568404, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: e7413f96503564cffa0136d54c8ea40c, type: 3}
-    - target: {fileID: 8140118749816568404, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8320648387787635517, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
       propertyPath: time
       value: 

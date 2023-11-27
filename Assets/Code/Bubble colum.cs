@@ -8,7 +8,7 @@ public class Bubblecolum : MonoBehaviour
     //outlets
     public float power;
     Rigidbody2D _rigidBody;
-
+    private Collider2D enteredObject;
     private float angle;
     private Vector2 slope;
 
@@ -36,19 +36,23 @@ public class Bubblecolum : MonoBehaviour
          _rigidBody = collider.GetComponent<Rigidbody2D>();
        //Debug.Log("enteredd collum");
         rampTracker = ramp;
+        enteredObject = collider;
     }
     void OnTriggerStay2D(Collider2D collider)
     {
-       
-          /*  if (rampTracker > 0) { }
-            {
-                _rigidBody.AddForce((slope * power) / rampTracker * Time.deltaTime);
-                Debug.Log(rampTracker);
-               --rampTracker;
 
-           }*/
-          // Debug.Log("adding force");
+        /*  if (rampTracker > 0) { }
+          {
+              _rigidBody.AddForce((slope * power) / rampTracker * Time.deltaTime);
+              Debug.Log(rampTracker);
+             --rampTracker;
+
+         }*/
+        // Debug.Log("adding force");
+        if (collider == enteredObject)
+        {
             _rigidBody.AddForce(slope * power * Time.deltaTime);
+        }
         
     }
    
