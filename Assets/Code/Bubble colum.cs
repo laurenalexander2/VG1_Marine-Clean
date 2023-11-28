@@ -11,8 +11,9 @@ public class Bubblecolum : MonoBehaviour
     private Collider2D enteredObject;
     private float angle;
     private Vector2 slope;
-
+    private SpriteRenderer sprite;
     public int ramp;
+    private float bubbleSpeed;
 
 
     //stateTracker
@@ -21,6 +22,9 @@ public class Bubblecolum : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        bubbleSpeed = Random.Range(2, 9) / 10f;
+        sprite = GetComponent<SpriteRenderer>();
+        StartCoroutine("Bubbling");
        angle = transform.localEulerAngles.z;
 
         //acounts for the capsule being perpindicular to the x-axis
@@ -55,6 +59,20 @@ public class Bubblecolum : MonoBehaviour
         }
         
     }
-   
+    IEnumerator Bubbling()
+    {
+        bubbleSpeed = Random.Range(3, 8) / 10f;
+        yield return new WaitForSeconds(bubbleSpeed);
+        if (sprite.flipX)
+        {
+            sprite.flipX = false;
+        } else
+        {
+            sprite.flipX=true;
+        }
+
+        StartCoroutine("Bubbling");
+    }
+     
     }
 

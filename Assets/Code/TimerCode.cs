@@ -47,7 +47,7 @@ public class TimerCode : MonoBehaviour
                 // No "Trash" objects found, stop the timer
                 Debug.Log("No Trash objects found. Stopping the timer.");
                 timerOn = false;
-                UpdateEndScreenStars();
+                updateEndScreenStars();
                 HighscoreSave();
                 endScreen.SetActive(true);
                 return;  // Exit the Update function
@@ -63,7 +63,7 @@ public class TimerCode : MonoBehaviour
                 Debug.Log("Game Over");
                 timeRemaining = 0;
                 timerOn = false;
-                UpdateEndScreenStars();
+                updateEndScreenStars();
                 HighscoreSave();
                 endScreen.SetActive(true);
             }
@@ -74,14 +74,14 @@ public class TimerCode : MonoBehaviour
                 timerOn = false;
 
                 // end screen
-                UpdateEndScreenStars();
+                updateEndScreenStars();
                 HighscoreSave();
                 endScreen.SetActive(true);
             }
         }
     }
 
-    void UpdateEndScreenStars()
+    public void updateEndScreenStars()
     {
         int starsAchieved = starScript.GetStarCount();
         Debug.Log(starsAchieved);

@@ -22,7 +22,7 @@ public class ScoreSystem : MonoBehaviour
     void Start()
     {   
         points  = 0;
-        var mandatoryObjectives = GameObject.FindGameObjectsWithTag("ManObj");
+        var mandatoryObjectives = GameObject.FindGameObjectsWithTag("Trash");
         var objCount = mandatoryObjectives.Length;
         foreach ( var obj in mandatoryObjectives ) {
          int mPoints =  obj.GetComponent<PickUp>().pointValue;

@@ -71,9 +71,12 @@ public class SubmarineHealth : MonoBehaviour
 
         if (currentHealth <= 0) {
             if (endScreen != null) {
+                GameObject.Find("Timer").GetComponent<TimerCode>().updateEndScreenStars();
                 endScreen.SetActive(true);
             }
             if (timer != null) {
+                GameObject.Find("Timer").GetComponent<TimerCode>().updateEndScreenStars();
+              
                 timerScript.timerOn = false;
             }
             Destroy(gameObject);

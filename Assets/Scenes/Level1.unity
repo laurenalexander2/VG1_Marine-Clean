@@ -2511,7 +2511,7 @@ PrefabInstance:
       objectReference: {fileID: 1921102805}
     - target: {fileID: 8769876289874484835, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
       propertyPath: maxHealth
-      value: 500
+      value: 1000
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6530192415779519505, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
@@ -4591,6 +4591,10 @@ PrefabInstance:
       propertyPath: Star3
       value: 
       objectReference: {fileID: 570458209}
+    - target: {fileID: 445551470452164032, guid: 8cec6673bb1573a45b6a03c1be642458, type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 1347282679}
     - target: {fileID: 507707383197095648, guid: 8cec6673bb1573a45b6a03c1be642458, type: 3}
       propertyPath: player
       value: 
@@ -4637,7 +4641,7 @@ PrefabInstance:
       objectReference: {fileID: 1931778025}
     - target: {fileID: 4144738537064292048, guid: 8cec6673bb1573a45b6a03c1be642458, type: 3}
       propertyPath: startPoints
-      value: 26
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4694724864449473130, guid: 8cec6673bb1573a45b6a03c1be642458, type: 3}
       propertyPath: m_LocalPosition.x

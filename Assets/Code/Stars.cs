@@ -16,7 +16,7 @@ public class Stars : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
- 
+        
     Star1.enabled = false;
     Star2.enabled = false;
     Star3.enabled = false;
