@@ -53,8 +53,9 @@ public class Bubblecolum : MonoBehaviour
 
          }*/
         // Debug.Log("adding force");
-        if (collider == enteredObject && TimerCode.instance.timeElapsedOn)
+        if (TimerCode.instance.timeElapsedOn)
         {
+            _rigidBody = collider.GetComponent<Rigidbody2D>();
             _rigidBody.AddForce(slope * power * Time.deltaTime);
         }
         

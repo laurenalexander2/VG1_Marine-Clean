@@ -38,6 +38,7 @@ using UnityEngine.SceneManagement;
         {
         if(TimerCode.instance.timeElapsedOn == false)
         {
+            _rigidbody2D.velocity = new Vector2(0, 0);
             return;
         }
             //fuel regen
