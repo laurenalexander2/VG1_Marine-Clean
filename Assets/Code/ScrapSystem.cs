@@ -34,9 +34,9 @@ public class ScrapSystem : MonoBehaviour
         {
             Debug.Log("sufficent funds");
             scrap = scrap - repairCost;
-            repairCost = repairCost * 2;
+           
             GameObject.Find("PC").GetComponent<SubmarineHealth>().repair();
-            textRepair.text = "Repair: " + repairCost;
+           
             textScrap.text = scrap.ToString();
 
         }
