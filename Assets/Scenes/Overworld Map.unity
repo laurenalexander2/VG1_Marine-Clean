@@ -2486,6 +2486,7 @@ GameObject:
   - component: {fileID: 862266275}
   - component: {fileID: 862266274}
   - component: {fileID: 862266273}
+  - component: {fileID: 862266277}
   m_Layer: 0
   m_Name: Game Complete
   m_TagString: level
@@ -2549,10 +2550,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0004734993, y: -0.0007997155}
+  m_Offset: {x: 0.6822815, y: -0.4929781}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2563,7 +2564,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.0213604, y: 2.385127}
+  m_Size: {x: 5.5538034, y: 4.353842}
   m_EdgeRadius: 0
 --- !u!212 &862266275
 SpriteRenderer:
@@ -2626,12 +2627,26 @@ Transform:
   m_GameObject: {fileID: 862266272}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 527, y: 272, z: 0}
+  m_LocalPosition: {x: 616, y: 271, z: 0}
   m_LocalScale: {x: 7.590649, y: 9.013063, z: 1.407292}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &862266277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862266272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef3108841760f4424878b65871b3e776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activationKey: 32
+  sceneToLoad: Congratulations
 --- !u!1 &879341704
 GameObject:
   m_ObjectHideFlags: 0
@@ -2898,11 +2913,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 89488862275735822, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 49
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 89488862275735822, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 32
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 89488862275735822, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2949,9 +2964,13 @@ PrefabInstance:
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1667885605105746036, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1667885605105746036, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
       propertyPath: imageThrust
       value: 
-      objectReference: {fileID: 371097371}
+      objectReference: {fileID: 0}
     - target: {fileID: 2356744493596035009, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
       propertyPath: m_SortingLayer
       value: 1
@@ -3019,6 +3038,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8398461461211186627, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1589845399}
+    - targetCorrespondingSourceObject: {fileID: 8398461461211186627, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1589845400}
   m_SourcePrefab: {fileID: 100100000, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
 --- !u!4 &1080552746 stripped
 Transform:
@@ -4007,6 +4029,24 @@ MonoBehaviour:
   teleportButton: {fileID: 170281623}
   StartScreen: {fileID: 1235733556}
   data: {fileID: 11400000, guid: da30f99c9cfd949c3bce00a4f128b4d5, type: 2}
+--- !u!114 &1589845400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589845394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e65be53252194a4380dade33dfc0e9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jetSpeed: 100
+  speed: 5000
+  fuelSpendSpeed: 10
+  fuelRegen: 5
+  fuelMax: 10000
+  imageThrust: {fileID: 0}
 --- !u!1 &1591108550
 GameObject:
   m_ObjectHideFlags: 0

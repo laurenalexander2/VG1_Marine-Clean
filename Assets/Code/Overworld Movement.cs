@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-    public class SimpleMovement : MonoBehaviour
+    public class OverworldMovement : MonoBehaviour
     {
         //Outlet
         Rigidbody2D _rigidbody2D;
@@ -36,20 +36,16 @@ using UnityEngine.SceneManagement;
 
         void Update()
         {
-        if(TimerCode.instance.timeElapsedOn == false)
-        {
-            return;
-        }
             //fuel regen
             if ( !Input.GetKey(KeyCode.Space) && fuel < fuelMax)
             {
                 fuel = fuel + (fuelRegen * Time.deltaTime);
-               
+
             // print(fuel);
         }
             if ( fuel > fuelMax ) {
                 fuel = fuelMax;
-                
+
         }
 
             //Move Player Left
@@ -65,7 +61,7 @@ using UnityEngine.SceneManagement;
                         fuel = fuel - (fuelSpendSpeed * Time.deltaTime);
                        // print(fuel);
                         _rigidbody2D.AddForce(Vector2.left * jetSpeed * Time.deltaTime, ForceMode2D.Impulse);
-                        
+
                     }
                 }
 
@@ -138,5 +134,5 @@ using UnityEngine.SceneManagement;
             fuelRegen += 1;
         }
     }
-    
+
 
