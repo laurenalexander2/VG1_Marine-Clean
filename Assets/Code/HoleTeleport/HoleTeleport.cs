@@ -17,7 +17,7 @@ public class HoleTeleport : MonoBehaviour
     private Rigidbody2D rb;
     private string hole;
     private static float lastTeleportTime;
-    public static float teleportCooldown = 5f;
+    public static float teleportCooldown = 2f;
 
     // Start is called before the first frame update
     void Start()
@@ -31,19 +31,27 @@ public class HoleTeleport : MonoBehaviour
     {
         
     }
-    void OnCollisionEnter2D(Collision2D collision){
-        if(Time.time - lastTeleportTime >= teleportCooldown){
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        if (Time.time - lastTeleportTime >= teleportCooldown)
+        {
             hole = gameObject.name;
 
             GameObject chosenTeleportDestination = DetermineTeleportDestination(hole);
-                    //hole = collision.GetComponent
+            //hole = collision.GetComponent
             TeleportPlayer(collision.gameObject, chosenTeleportDestination);
             lastTeleportTime = Time.time;
         }
 
     }
 
-        void TeleportPlayer(GameObject player, GameObject teleportDestination)
+    void TeleportPlayer(GameObject player, GameObject teleportDestination)
     {
         //player's current position
         //Vector3 playerPosition = transform.position;
