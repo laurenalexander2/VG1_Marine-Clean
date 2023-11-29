@@ -53,7 +53,7 @@ public class Bubblecolum : MonoBehaviour
 
          }*/
         // Debug.Log("adding force");
-        if (collider == enteredObject)
+        if (collider == enteredObject && TimerCode.instance.timeElapsedOn)
         {
             _rigidBody.AddForce(slope * power * Time.deltaTime);
         }
