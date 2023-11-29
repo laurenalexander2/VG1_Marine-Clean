@@ -54,11 +54,13 @@ public class ScrapSystem : MonoBehaviour
     }
     public void upgradeJets()
     {
+        if(scrap >= upgradeJetCost) {
         scrap = scrap - upgradeJetCost;
         upgradeJetCost = upgradeJetCost * 2;
         GameObject.Find("PC").GetComponent<SimpleMovement>().upgradeJets();
         textJets.text = "Upgrade Jets: " + upgradeJetCost.ToString();
         textScrap.text = scrap.ToString();
+    }
     }
 }
 

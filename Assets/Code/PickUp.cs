@@ -13,8 +13,12 @@ public class PickUp : MonoBehaviour
         if (collider.gameObject.layer == LayerMask.NameToLayer("player Character"))
         {
             //adding point
-            //ScoreSystem.instance.AddPoint(pointValue);
+            //ScoreSystem.instance.AddPoint(pointValue)
             GameObject.Find("Timer").GetComponent<ScoreSystem>().AddPoint(pointValue);
+            
+             Debug.Log("added points");
+            
+            
             GameObject.Find("Timer").GetComponent<ScrapSystem>().addScrap(scrapValue);
             Destroy(gameObject);
         }

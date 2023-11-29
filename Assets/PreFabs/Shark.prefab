@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 802024566684378809}
   - component: {fileID: 8991289532594365142}
   - component: {fileID: 2268353132623279319}
+  - component: {fileID: 8285058192353147514}
   m_Layer: 0
   m_Name: Shark
   m_TagString: Shark
@@ -130,3 +131,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7344136, y: 0.3222301}
   m_EdgeRadius: 0
+--- !u!114 &8285058192353147514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5456729409874650249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0748521aef6cc634f901e6daf3e1bb3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeElapsed: 0
+  turf: 0
+  isPatrolling: 0
+  xSpeed: 0
+  ySpeed: 0

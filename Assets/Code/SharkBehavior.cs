@@ -6,9 +6,11 @@ public class SharkBehavior : MonoBehaviour
 {
     public float timeElapsed;
     public float turf;
-    public bool onoff;
+    public bool isPatrolling;
     private float xstartPosittion;
     private float ystartPosittion;
+    public float xSpeed;
+    public float ySpeed;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,11 +21,11 @@ public class SharkBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (onoff)
+        if (isPatrolling)
         {
             timeElapsed += Time.deltaTime;
-            float xpos = Mathf.Sin(timeElapsed) * Mathf.Deg2Rad * turf;
-            float ypos = Mathf.Cos(timeElapsed) * Mathf.Deg2Rad * turf;
+            float xpos = Mathf.Sin(timeElapsed / xSpeed) * Mathf.Deg2Rad * turf;
+            float ypos = Mathf.Cos(timeElapsed / ySpeed) * Mathf.Deg2Rad * turf;
             transform.position = new Vector2(xpos + xstartPosittion, ypos + ystartPosittion);
         }
     }
