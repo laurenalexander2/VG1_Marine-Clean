@@ -29,6 +29,7 @@ public DataManager data;
         //Star3.SetActive(false);// = false;
         if(levelNumber == 1){
                 Highscore = data.highscore1;
+                Debug.Log(data.highscore1);
                 completed = true;
             }
             if(levelNumber == 2){
@@ -44,19 +45,19 @@ public DataManager data;
                 completed = true;
             }
         if (Highscore >= 1) {
-            SpriteRenderer s1 = Star1.GetComponent<SpriteRenderer>();
+            Image s1 = Star1.GetComponent<Image>();
             myCollider.isTrigger = true;
             s1.enabled = true;
 
             }// = true;
         if (Highscore >= 2) {
 
-        SpriteRenderer s2 = Star2.GetComponent<SpriteRenderer>();
+        Image s2 = Star2.GetComponent<Image>();
         s2.enabled = true;
 
         }// = true;
         if (Highscore >= 3) {
-        SpriteRenderer s3 = Star3.GetComponent<SpriteRenderer>();
+        Image s3 = Star3.GetComponent<Image>();
         s3.enabled = true;
 
         }// = true;

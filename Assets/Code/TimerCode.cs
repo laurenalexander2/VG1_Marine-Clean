@@ -109,22 +109,22 @@ public class TimerCode : MonoBehaviour
             string levelName = SceneManager.GetActiveScene().name;
             int levelNumber = 0;
             int starsAchieved = starScript.GetStarCount();
-            if(levelName == "Demo Stage"){
+            if(levelName == "Level1"){
                 levelNumber = 1;
                 if(starsAchieved > data.highscore1){
                     data.highscore1 = starsAchieved;
                 }
-            }else if(levelName == "LevelTwo"){
+            }else if(levelName == "Level2"){
                 levelNumber = 2;
                 if(starsAchieved > data.highscore2){
                    data.highscore2 = starsAchieved;
                 }
-            }else if(levelName == "LevelThree"){
+            }else if(levelName == "Level3"){
                 levelNumber = 3;
                 if(starsAchieved > data.highscore3){
                     data.highscore3 = starsAchieved;
                 }
-            }else if(levelName == "LevelFour"){
+            }else if(levelName == "Level4"){
                 levelNumber = 4;
                 if(starsAchieved > data.highscore4){
                     data.highscore4 = starsAchieved;
