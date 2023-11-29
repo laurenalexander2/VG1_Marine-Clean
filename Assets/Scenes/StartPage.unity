@@ -562,9 +562,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n\n\n\nCollect as much trash before time runs out. Hitting the reefs
-    will \ndamage your submarine, but whatever you do... Avoid the sharks!\n\nUse
-    the [spacebar] to Thrust and the [W][A][S][D] keys to change direction. \nThrust
+  m_text: "\n\n\n\n\n\nCollect as much trash before time runs out. As you collect\n
+    trash, you can use it to repair/upgrade your ship. \n\nHitting the reefs will
+    damage your submarine, but whatever you do... \nAvoid the sharks!\n\nUse the
+    [spacebar] to Thrust and the [W][A][S][D] keys to change direction. \nThrust
     through the level zone to begin that level.\n\nClick any key to start."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
