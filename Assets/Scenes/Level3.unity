@@ -8183,12 +8183,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1667885605105746036, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
+      propertyPath: fuelMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1667885605105746036, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
       propertyPath: imageThrust
       value: 
       objectReference: {fileID: 224830729}
     - target: {fileID: 2356744493596035009, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3537323085844216503, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
       propertyPath: slider

@@ -2481,6 +2481,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1667885605105746036, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
+      propertyPath: fuelMax
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1667885605105746036, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
+      propertyPath: imageThrust
+      value: 
+      objectReference: {fileID: 1306588163}
     - target: {fileID: 3537323085844216503, guid: 30286b4ed4955c84da1382937a4747c4, type: 3}
       propertyPath: slider
       value: 
@@ -4721,6 +4729,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e7248b39b216044f691636e2fa7ffb9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1306588163 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2475217102900543882, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
+  m_PrefabInstance: {fileID: 1931778024}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1336082229
