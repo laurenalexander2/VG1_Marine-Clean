@@ -5,8 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 
-public class TimerCode : MonoBehaviour
-{
+public class TimerCode : MonoBehaviour {
     // Start is called before the first frame update
     public static TimerCode instance;
     public float timeRemaining = 10;
@@ -155,7 +154,9 @@ public class TimerCode : MonoBehaviour
     {
         timeElapsedOn = false;
     }
-    public void resumeElapsedTime() {  timeElapsedOn = true; }
+    public void resumeElapsedTime()
+    {  timeElapsedOn = true; }
+
     public void pauseGame()
     {
         pauseElapsedTime();
@@ -165,7 +166,7 @@ public class TimerCode : MonoBehaviour
     {
         resumeElapsedTime();
         hidePause();
-      
+
     }
     void hidePause()
     {
