@@ -30,7 +30,7 @@ public class ScrapSystem : MonoBehaviour
     public void repairShip()
     {
         Debug.Log("pressed");
-        if (scrap >= repairCost)
+        if (scrap >= repairCost && TimerCode.instance.timeElapsedOn)
         {
             Debug.Log("sufficent funds");
             scrap = scrap - repairCost;
@@ -43,7 +43,7 @@ public class ScrapSystem : MonoBehaviour
     }
    public void upgradeHull()
     {
-        if (scrap >= upgradeHullCost)
+        if (scrap >= upgradeHullCost && TimerCode.instance.timeElapsedOn)
         {
             scrap = scrap - upgradeHullCost;
             GameObject.Find("PC").GetComponent<SubmarineHealth>().upgradeHull();
@@ -54,7 +54,7 @@ public class ScrapSystem : MonoBehaviour
     }
     public void upgradeJets()
     {
-        if(scrap >= upgradeJetCost) {
+        if(scrap >= upgradeJetCost && TimerCode.instance.timeElapsedOn) {
         scrap = scrap - upgradeJetCost;
         upgradeJetCost = upgradeJetCost * 2;
         GameObject.Find("PC").GetComponent<SimpleMovement>().upgradeJets();

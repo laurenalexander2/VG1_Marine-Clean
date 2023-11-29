@@ -135,6 +135,7 @@ MonoBehaviour:
   fuelSpendSpeed: 10
   fuelRegen: 5
   fuelMax: 50
+  imageThrust: {fileID: 0}
 --- !u!114 &6530192415779519505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,6 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointValue: 2
+  scrapValue: 0
 --- !u!114 &7118659758913331224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,6 +162,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 907f788e8ba1f40c28a1a8fa85288fce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  endScreen: {fileID: 0}
+  timer: {fileID: 0}
 --- !u!114 &8769876289874484835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,6 +184,8 @@ MonoBehaviour:
   scrapeSense: 0.5
   target: {fileID: 0}
   pointValue: 0
+  timer: {fileID: 0}
+  endScreen: {fileID: 0}
 --- !u!114 &3537323085844216503
 MonoBehaviour:
   m_ObjectHideFlags: 0

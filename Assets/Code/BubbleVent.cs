@@ -15,9 +15,10 @@ public class BubbleVent : MonoBehaviour
 
     //state trackers
     public int intervals;
-    private int timeElapsed;
+    private float timeElapsed;
     public bool isOn;
     private GameObject newBubble;
+    private float totalTime;
     
     
     void Start()
@@ -35,20 +36,21 @@ public class BubbleVent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(timeElapsed > intervals)
+        timeElapsed = TimerCode.instance.timeElapsed;
+        if( timeElapsed - totalTime > intervals )
         {
 
             if (isOn)
             {
                 //destroy current bubble
                 isOn = false;
-                timeElapsed = 0;
+                totalTime += timeElapsed;
                 Destroy(newBubble);
             }
             else
             {
                isOn= true;
-                timeElapsed = 0;
+                totalTime += timeElapsed;
                 newBubble = Instantiate(bubblePrefab);
                 newBubble.transform.position = transform.position;
                 newBubble.transform.rotation = transform.rotation;
@@ -57,9 +59,7 @@ public class BubbleVent : MonoBehaviour
 
 
         }
-        else {
-            ++timeElapsed;
-            }
+       
         
         
     }

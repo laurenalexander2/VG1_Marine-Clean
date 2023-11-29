@@ -61,6 +61,7 @@ public class Bubblecolum : MonoBehaviour
     }
     IEnumerator Bubbling()
     {
+        if (TimerCode.instance.timeElapsedOn) { 
         bubbleSpeed = Random.Range(3, 8) / 10f;
         yield return new WaitForSeconds(bubbleSpeed);
         if (sprite.flipX)
@@ -68,10 +69,16 @@ public class Bubblecolum : MonoBehaviour
             sprite.flipX = false;
         } else
         {
-            sprite.flipX=true;
+            sprite.flipX = true;
+        }
+            StartCoroutine("Bubbling");
+        } else
+        {
+            yield return new WaitForSeconds(1);
+        StartCoroutine("Bubbling");
         }
 
-        StartCoroutine("Bubbling");
+        
     }
      
     }

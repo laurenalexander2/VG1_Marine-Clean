@@ -10,6 +10,7 @@ public class ScoreSystem : MonoBehaviour
     public int startPoints;
     public ProgressBar progressBar;
 
+
     public void Activate() {
         instance = this;
     }

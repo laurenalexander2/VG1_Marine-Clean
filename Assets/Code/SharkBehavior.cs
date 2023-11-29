@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SharkBehavior : MonoBehaviour
 {
-    public float timeElapsed;
+    private float time;
     public float turf;
     public bool isPatrolling;
     private float xstartPosittion;
@@ -25,15 +25,15 @@ public class SharkBehavior : MonoBehaviour
     {
         if (isPatrolling)
         {
-            timeElapsed += Time.deltaTime;
+            time = TimerCode.instance.timeElapsed;
             if(xSpeed > 0)
             {
-                 xpos = Mathf.Sin(timeElapsed / xSpeed) * Mathf.Deg2Rad * turf;
+                 xpos = Mathf.Sin(time / xSpeed) * Mathf.Deg2Rad * turf;
             } else {
                 xpos = 0;
             }
             if (ySpeed > 0) {
-                 ypos = Mathf.Cos(timeElapsed / ySpeed) * Mathf.Deg2Rad * turf;
+                 ypos = Mathf.Cos(time / ySpeed) * Mathf.Deg2Rad * turf;
             } else
             {
                 ypos = 0;

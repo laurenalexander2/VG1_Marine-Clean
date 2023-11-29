@@ -35,6 +35,10 @@ using UnityEngine.UI;
 
         void Update()
         {
+        if(TimerCode.instance.timeElapsedOn == false)
+        {
+            return;
+        }
             //fuel regen
             if ( !Input.GetKey(KeyCode.Space) && fuel < fuelMax)
             {

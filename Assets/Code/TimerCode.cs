@@ -8,9 +8,12 @@ using TMPro;
 public class TimerCode : MonoBehaviour
 {
     // Start is called before the first frame update
-
+    public static TimerCode instance;
     public float timeRemaining = 10;
     public bool timerOn = false;
+    public bool timeElapsedOn;
+    public float timeElapsed;
+    public bool gameTimer;
     public Text GameText;
     public GameObject endScreen;
     public Image endStar1;
@@ -19,12 +22,14 @@ public class TimerCode : MonoBehaviour
     public Stars starScript;
     private SubmarineHealth health;
     public GameObject player;
+    public GameObject pauseMenu;
     //public DataManager data;
 
     [SerializeField]
     public DataManager data;
 
     private void Awake() {
+        instance = this;
         starScript = GetComponent<Stars>();
         health = player.GetComponent<SubmarineHealth>();
 
@@ -39,14 +44,18 @@ public class TimerCode : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (timerOn)
+        if (timeElapsedOn)
+        {
+            timeElapsed += Time.deltaTime;
+        }
+        if (timeElapsedOn)
         {
             // Check if there are no game objects of type "Trash"
             if (GameObject.FindGameObjectsWithTag("Trash").Length == 0)
             {
                 // No "Trash" objects found, stop the timer
                 Debug.Log("No Trash objects found. Stopping the timer.");
-                timerOn = false;
+                timeElapsedOn = false;
                 updateEndScreenStars();
                 HighscoreSave();
                 endScreen.SetActive(true);
@@ -62,7 +71,7 @@ public class TimerCode : MonoBehaviour
             {
                 Debug.Log("Game Over");
                 timeRemaining = 0;
-                timerOn = false;
+                timeElapsedOn = false;
                 updateEndScreenStars();
                 HighscoreSave();
                 endScreen.SetActive(true);
@@ -71,7 +80,7 @@ public class TimerCode : MonoBehaviour
             {
                 Debug.Log("Game Over");
                 timeRemaining = 0;
-                timerOn = false;
+                timeElapsedOn = false;
 
                 // end screen
                 updateEndScreenStars();
@@ -142,4 +151,29 @@ public class TimerCode : MonoBehaviour
         SceneManager.UnloadSceneAsync(scene);
     }
 
+    public void pauseElapsedTime()
+    {
+        timeElapsedOn = false;
+    }
+    public void resumeElapsedTime() {  timeElapsedOn = true; }
+    public void pauseGame()
+    {
+        pauseElapsedTime();
+        showPause();
+    }
+    public void resumeGame()
+    {
+        resumeElapsedTime();
+        hidePause();
+      
+    }
+    void hidePause()
+    {
+        pauseMenu.SetActive(false);
+    }
+    void showPause()
+    {
+        pauseMenu.SetActive(true);
+    }
+   
 }
