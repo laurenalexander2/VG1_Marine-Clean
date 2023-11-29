@@ -3588,26 +3588,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 709936991}
-    - target: {fileID: 4503979494883516858, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: upgradeHull
-      objectReference: {fileID: 0}
     - target: {fileID: 4964463208518790864, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 709936991}
-    - target: {fileID: 4964463208518790864, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: repairShip
-      objectReference: {fileID: 0}
     - target: {fileID: 5624591340668291876, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 709936991}
-    - target: {fileID: 5624591340668291876, guid: 68b2001ea942e3c4ea87a27bbb2bdf90, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: upgradeJets
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
